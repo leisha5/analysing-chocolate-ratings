@@ -1,0 +1,1318 @@
+,company,specific_bean_region,year,cacao_percent,company_country,rating,origin_country,origin_gdp,company_gdp
+1,A. Morin,Kpime,2015,0.7,France,2.75,Togo,4087628275.95594,2433562015516.21
+2,A. Morin,Atsane,2015,0.7,France,3.0,Togo,4087628275.95594,2433562015516.21
+3,A. Morin,Akata,2015,0.7,France,3.5,Togo,4087628275.95594,2433562015516.21
+4,A. Morin,Quilla,2015,0.7,France,3.5,Peru,189212096470.293,2433562015516.21
+6,A. Morin,Cuba,2014,0.7,France,3.5,Cuba,80656100000.0,2849305322684.76
+9,A. Morin,Pablino,2014,0.7,France,4.0,Peru,201049665375.132,2849305322684.76
+10,A. Morin,Panama,2013,0.7,France,2.75,Panama,44856189500.0,2808511203185.39
+11,A. Morin,Madagascar,2013,0.7,France,3.0,Madagascar,10601690871.7611,2808511203185.39
+12,A. Morin,Brazil,2013,0.7,France,3.25,Brazil,2472806919901.67,2808511203185.39
+13,A. Morin,Equateur,2013,0.7,France,3.75,Ecuador,95129659000.0,2808511203185.39
+14,A. Morin,Colombie,2013,0.7,France,2.75,Colombia,380191876348.93,2808511203185.39
+16,A. Morin,Papua New Guinea,2013,0.7,France,3.25,Papua New Guinea,21261305413.2323,2808511203185.39
+18,A. Morin,Piura,2013,0.7,France,3.25,Peru,201217661645.509,2808511203185.39
+19,A. Morin,Chanchamayo Province,2013,0.7,France,3.5,Peru,201217661645.509,2808511203185.39
+20,A. Morin,Chanchamayo Province,2013,0.63,France,4.0,Peru,201217661645.509,2808511203185.39
+21,A. Morin,Bolivia,2012,0.7,France,3.5,Bolivia,27084497539.7974,2681416108537.39
+22,A. Morin,Peru,2012,0.63,France,3.75,Peru,192648999090.082,2681416108537.39
+23,Acalli,Chulucanas,2015,0.7,United States,3.75,Peru,189212096470.293,18120714000000.0
+24,Acalli,Tumbes,2015,0.7,United States,3.75,Peru,189212096470.293,18120714000000.0
+25,Adi,Vanua Levu,2011,0.6,Fiji,2.75,Fiji,3774530615.65916,3774530615.65916
+26,Adi,Vanua Levu,2011,0.8,Fiji,3.25,Fiji,3774530615.65916,3774530615.65916
+27,Adi,Vanua Levu,2011,0.88,Fiji,3.5,Fiji,3774530615.65916,3774530615.65916
+28,Adi,Vanua Levu,2011,0.72,Fiji,3.5,Fiji,3774530615.65916,3774530615.65916
+29,Aequare (Gianduja),Los Rios,2009,0.55,Ecuador,2.75,Ecuador,62519686000.0,62519686000.0
+30,Aequare (Gianduja),Los Rios,2009,0.7,Ecuador,3.0,Ecuador,62519686000.0,62519686000.0
+31,Ah Cacao,Tabasco,2009,0.7,Mexico,3.0,Mexico,894948748436.748,894948748436.748
+32,Akesson's (Pralus),Bali (west),2011,0.75,Switzerland,3.75,Indonesia,892969107923.094,699579638638.226
+33,Akesson's (Pralus),Madagascar,2010,0.75,Switzerland,2.75,Madagascar,8729936135.74487,583782977866.405
+34,Akesson's (Pralus),Monte Alegre,2010,0.75,Switzerland,2.75,Brazil,2208871646202.82,583782977866.405
+36,Alain Ducasse,Vietnam,2014,0.75,France,2.75,Vietnam,186204652922.262,2849305322684.76
+37,Alain Ducasse,Madagascar,2014,0.75,France,3.0,Madagascar,10673516672.6664,2849305322684.76
+39,Alain Ducasse,Piura,2013,0.75,France,2.5,Peru,201217661645.509,2808511203185.39
+44,Altus aka Cao Artisan,Momotombo,2016,0.6,United States,2.75,Nicaragua,13230844686.858,18624475000000.0
+45,Altus aka Cao Artisan,Acopagro,2016,0.6,United States,3.0,Peru,192207342004.681,18624475000000.0
+46,Altus aka Cao Artisan,CIAAB Coop,2016,0.6,United States,2.5,Bolivia,33806395513.7482,18624475000000.0
+47,Altus aka Cao Artisan,Villa Andina,2016,0.6,United States,2.5,Peru,192207342004.681,18624475000000.0
+48,Altus aka Cao Artisan,Gruppo Salinas,2016,0.6,United States,2.75,Ecuador,98613972000.0,18624475000000.0
+50,Altus aka Cao Artisan,Conacado,2013,0.6,United States,3.0,Dominican Republic,61965942056.6828,16691517000000.0
+51,Altus aka Cao Artisan,Bolivia,2013,0.8,United States,3.25,Bolivia,30659338929.0883,16691517000000.0
+52,Altus aka Cao Artisan,Bolivia,2013,0.6,United States,3.0,Bolivia,30659338929.0883,16691517000000.0
+53,Altus aka Cao Artisan,Peru,2013,0.6,United States,3.25,Peru,201217661645.509,16691517000000.0
+54,Amano,Morobe,2011,0.7,United States,4.0,Papua New Guinea,17984816533.1084,15517926000000.0
+55,Amano,Dos Rios,2010,0.7,United States,3.75,Dominican Republic,53954579003.5277,14964372000000.0
+56,Amano,Guayas,2010,0.7,United States,4.0,Ecuador,69555367000.0,14964372000000.0
+59,Amano,Bali,2008,0.7,United States,2.75,Indonesia,543253873101.753,14718582000000.0
+60,Amano,Madagascar,2007,0.7,United States,3.5,Madagascar,7342923489.09616,14477635000000.0
+63,Amatller (Simon Coll),Ghana,2009,0.7,Spain,3.0,Ghana,25977847813.7422,1499099749930.54
+64,Amatller (Simon Coll),Ecuador,2009,0.7,Spain,2.75,Ecuador,62519686000.0,1499099749930.54
+65,Amatller (Simon Coll),Ecuador,2009,0.85,Spain,2.75,Ecuador,62519686000.0,1499099749930.54
+66,Amatller (Simon Coll),Ghana,2009,0.85,Spain,3.0,Ghana,25977847813.7422,1499099749930.54
+67,Amazona,LamasdelChanka,2013,0.72,Peru,3.25,Peru,201217661645.509,201217661645.509
+68,Amazona,Bellavista Gran Pajeten,2013,0.73,Peru,3.5,Peru,201217661645.509,201217661645.509
+69,Ambrosia,Belize,2015,0.64,Canada,3.0,Belize,1742545900.0,1552807652015.37
+70,Ambrosia,Madagascar,2015,0.66,Canada,3.25,Madagascar,9744243420.48073,1552807652015.37
+71,Ambrosia,Dominican Republic,2015,0.75,Canada,3.25,Dominican Republic,68102618092.1031,1552807652015.37
+72,Ambrosia,Papua New Guinea,2015,0.63,Canada,3.25,Papua New Guinea,21060901603.8145,1552807652015.37
+74,Ambrosia,Peru,2015,0.68,Canada,3.5,Peru,189212096470.293,1552807652015.37
+75,Amedei,Piura,2012,0.7,Italy,3.75,Peru,192648999090.082,2072823157059.76
+78,Amedei,Ecuador,2007,0.7,Italy,3.0,Ecuador,51007777000.0,2203053380782.92
+79,Amedei,Jamaica,2007,0.7,Italy,3.0,Jamaica,12824094989.8639,2203053380782.92
+80,Amedei,Grenada,2007,0.7,Italy,3.5,Grenada,758683598.518519,2203053380782.92
+82,Amedei,Madagascar,2007,0.7,Italy,4.0,Madagascar,7342923489.09616,2203053380782.92
+84,AMMA,Catongo,2013,0.75,Brazil,3.25,Brazil,2472806919901.67,2472806919901.67
+85,AMMA,Monte Alegre,2010,0.85,Brazil,2.75,Brazil,2208871646202.82,2208871646202.82
+86,AMMA,Monte Alegre,2010,0.5,Brazil,3.75,Brazil,2208871646202.82,2208871646202.82
+87,AMMA,Monte Alegre,2010,0.75,Brazil,3.75,Brazil,2208871646202.82,2208871646202.82
+88,AMMA,Monte Alegre,2010,0.6,Brazil,4.0,Brazil,2208871646202.82,2208871646202.82
+89,Anahata,Elvesia,2014,0.75,United States,3.0,Dominican Republic,65231032303.2418,17393103000000.0
+90,Animas,Alto Beni,2016,0.75,United States,3.5,Bolivia,33806395513.7482,18624475000000.0
+91,Ara,Madagascar,2014,0.75,France,3.0,Madagascar,10673516672.6664,2849305322684.76
+92,Ara,Chiapas,2014,0.72,France,2.5,Mexico,1298461494903.14,2849305322684.76
+93,Ara,Equateur,2014,0.75,France,2.75,Ecuador,101726331000.0,2849305322684.76
+96,Arete,Kokoa Kamili,2016,0.7,United States,3.75,Tanzania,47340071107.343,18624475000000.0
+97,Arete,Tien Giang,2016,0.73,United States,3.5,Vietnam,205276172134.901,18624475000000.0
+98,Arete,Hacienda Victoria,2016,0.7,United States,3.25,Ecuador,98613972000.0,18624475000000.0
+99,Arete,Costa Esmeraldas,2016,0.7,United States,3.25,Ecuador,98613972000.0,18624475000000.0
+100,Arete,Lachua,2016,0.7,United States,3.5,Guatemala,68763255963.8943,18624475000000.0
+101,Arete,Rugoso,2016,0.7,United States,3.75,Nicaragua,13230844686.858,18624475000000.0
+102,Arete,La Masica,2016,0.7,United States,3.5,Honduras,21516938909.5686,18624475000000.0
+103,Arete,Coto Brus,2016,0.7,United States,4.0,Costa Rica,57435507212.256,18624475000000.0
+104,Arete,Phantom,2016,0.7,United States,4.0,Peru,192207342004.681,18624475000000.0
+105,Arete,Elvesia,2016,0.7,United States,3.75,Dominican Republic,71583553487.5646,18624475000000.0
+106,Arete,Matasawalevu,2016,0.7,United States,3.25,Fiji,4703632978.46947,18624475000000.0
+107,Arete,Lam Dong,2016,0.73,United States,3.25,Vietnam,205276172134.901,18624475000000.0
+108,Arete,Fazenda Camboa,2015,0.7,United States,3.5,Brazil,1803652649613.75,18120714000000.0
+109,Arete,Nacional,2015,0.68,United States,3.5,Peru,189212096470.293,18120714000000.0
+110,Arete,Puerto Quito,2015,0.7,United States,3.75,Ecuador,99290381000.0,18120714000000.0
+111,Arete,Oko Caribe,2015,0.7,United States,3.5,Dominican Republic,68102618092.1031,18120714000000.0
+112,Arete,Maya Mountain,2015,0.7,United States,3.75,Belize,1742545900.0,18120714000000.0
+113,Arete,Chuno,2015,0.7,United States,4.0,Nicaragua,12747741539.7259,18120714000000.0
+114,Arete,Fazenda Camboa,2015,0.75,United States,2.75,Brazil,1803652649613.75,18120714000000.0
+115,Arete,Guatemala,2015,0.7,United States,3.25,Guatemala,63767597193.9175,18120714000000.0
+116,Arete,Camino Verde,2015,0.75,United States,3.5,Ecuador,99290381000.0,18120714000000.0
+118,Artisan du Chocolat,Colombia,2012,0.72,United Kingdom,3.75,Colombia,369659697842.885,2662085168498.93
+119,Artisan du Chocolat,Haiti,2011,0.72,United Kingdom,4.0,Haiti,7516834160.25277,2619700404733.37
+120,Artisan du Chocolat,Panama,2011,0.72,United Kingdom,2.75,Panama,34373820500.0,2619700404733.37
+122,Artisan du Chocolat,Jamaica,2010,0.72,United Kingdom,3.75,Jamaica,13191645685.5116,2441173394729.62
+123,Artisan du Chocolat,Costa Rica,2010,0.72,United Kingdom,3.25,Costa Rica,37268635287.0856,2441173394729.62
+124,Artisan du Chocolat,Ba Ria Vung Tau Province,2010,0.72,United Kingdom,3.25,Vietnam,115931749697.241,2441173394729.62
+125,Artisan du Chocolat,Bali,2010,0.72,United Kingdom,3.5,Indonesia,755094160363.071,2441173394729.62
+127,Artisan du Chocolat,Java,2009,0.72,United Kingdom,2.75,Indonesia,574505139225.44,2382825985355.97
+128,Artisan du Chocolat,Brazil Rio Doce,2009,0.72,United Kingdom,1.75,Brazil,1667019605881.76,2382825985355.97
+129,Artisan du Chocolat,Madagascar,2009,0.8,United Kingdom,3.0,Madagascar,8550363974.79243,2382825985355.97
+130,Artisan du Chocolat,Peru,2009,0.75,United Kingdom,3.0,Peru,120822986521.479,2382825985355.97
+131,Artisan du Chocolat,Dominican Republic,2009,0.72,United Kingdom,3.25,Dominican Republic,48376555305.6902,2382825985355.97
+133,Artisan du Chocolat (Casa Luker),Orinoqua Region,2013,0.72,United Kingdom,2.75,Colombia,380191876348.93,2739818680930.19
+134,Askinosie,Mababa,2016,0.68,United States,3.75,Tanzania,47340071107.343,18624475000000.0
+135,Askinosie,Tenende,2011,0.72,United States,3.75,Tanzania,33878631649.4157,15517926000000.0
+136,Askinosie,Cortes,2011,0.7,United States,3.75,Honduras,17710315005.9999,15517926000000.0
+137,Askinosie,Davao,2009,0.77,United States,3.75,Philippines,168334599538.168,14418739000000.0
+138,Askinosie,Xoconusco,2007,0.75,United States,2.5,Mexico,1043471321169.09,14477635000000.0
+139,Askinosie,San Jose del Tambo,2007,0.7,United States,3.0,Ecuador,51007777000.0,14477635000000.0
+140,Bahen & Co.,Papua New Guinea,2015,0.7,Australia,3.5,Papua New Guinea,21060901603.8145,1345383143356.35
+141,Bahen & Co.,Sambirano,2012,0.7,Australia,3.0,Madagascar,9919780071.28764,1538194473087.23
+142,Bahen & Co.,Bahia,2012,0.7,Australia,2.5,Brazil,2465188674415.03,1538194473087.23
+143,Bakau,Bambamarca,2015,0.7,Peru,2.75,Peru,189212096470.293,189212096470.293
+144,Bakau,Huallabamba,2015,0.7,Peru,3.5,Peru,189212096470.293,189212096470.293
+145,Bar Au Chocolat,Bahia,2015,0.7,United States,3.5,Brazil,1803652649613.75,18120714000000.0
+146,Bar Au Chocolat,Maranon Canyon,2014,0.7,United States,4.0,Peru,201049665375.132,17393103000000.0
+147,Bar Au Chocolat,Duarte Province,2012,0.7,United States,3.25,Dominican Republic,60613645121.3529,16155255000000.0
+148,Bar Au Chocolat,Chiapas,2012,0.7,United States,3.5,Mexico,1186598324461.82,16155255000000.0
+149,Bar Au Chocolat,Sambirano,2012,0.7,United States,3.75,Madagascar,9919780071.28764,16155255000000.0
+151,Batch,Dominican Republic,2016,0.65,United States,3.5,Dominican Republic,71583553487.5646,18624475000000.0
+152,Batch,Brazil,2016,0.7,United States,3.75,Brazil,1796186586414.45,18624475000000.0
+153,Batch,Ecuador,2016,0.65,United States,3.25,Ecuador,98613972000.0,18624475000000.0
+156,Beehive,Brazil,2016,0.8,United States,2.75,Brazil,1796186586414.45,18624475000000.0
+157,Beehive,Dominican Republic,2016,0.7,United States,2.75,Dominican Republic,71583553487.5646,18624475000000.0
+158,Beehive,Ecuador,2016,0.7,United States,2.75,Ecuador,98613972000.0,18624475000000.0
+159,Beehive,Ecuador,2016,0.9,United States,2.75,Ecuador,98613972000.0,18624475000000.0
+160,Belcolade,Costa Rica,2010,0.64,Belgium,2.75,Costa Rica,37268635287.0856,483548031197.108
+161,Belcolade,Papua New Guinea,2010,0.64,Belgium,2.75,Papua New Guinea,14250726289.854,483548031197.108
+162,Belcolade,Peru,2010,0.64,Belgium,2.75,Peru,147528937028.778,483548031197.108
+163,Belcolade,Ecuador,2010,0.71,Belgium,3.5,Ecuador,69555367000.0,483548031197.108
+164,Bellflower,Kakao Kamili,2016,0.7,United States,3.5,Tanzania,47340071107.343,18624475000000.0
+165,Bellflower,Alto Beni,2016,0.7,United States,3.25,Bolivia,33806395513.7482,18624475000000.0
+166,Bellflower,Oko Caribe,2016,0.7,United States,3.5,Dominican Republic,71583553487.5646,18624475000000.0
+167,Belyzium,Belize south,2016,0.83,Germany,2.75,Belize,1741100000.0,3477796274496.8
+168,Belyzium,Belize south,2016,0.78,Germany,3.0,Belize,1741100000.0,3477796274496.8
+169,Belyzium,Belize south,2016,0.83,Germany,3.5,Belize,1741100000.0,3477796274496.8
+170,Benoit Nihant,Baracoa,2013,0.74,Belgium,3.5,Cuba,77148000000.0,520925468952.938
+173,Benoit Nihant,Rio Peripa H.,2013,0.73,Belgium,4.0,Ecuador,95129659000.0,520925468952.938
+174,Benoit Nihant,Bali,2011,0.72,Belgium,4.0,Indonesia,892969107923.094,527008453886.929
+175,Benoit Nihant,Somia Plantation,2011,0.72,Belgium,3.75,Madagascar,9892702357.56691,527008453886.929
+176,Beschle (Felchlin),Madagascar,2011,0.64,Switzerland,3.0,Madagascar,9892702357.56691,699579638638.226
+179,Beschle (Felchlin),Ecuador,2011,0.72,Switzerland,4.0,Ecuador,79276664000.0,699579638638.226
+182,Beschle (Felchlin),Java,2010,0.64,Switzerland,3.5,Indonesia,755094160363.071,583782977866.405
+184,Bisou,Nicaragua,2015,0.76,United States,2.5,Nicaragua,12747741539.7259,18120714000000.0
+185,Bisou,San Andres,2015,0.76,United States,2.5,Costa Rica,54840103850.265,18120714000000.0
+186,Bisou,San Andres,2015,0.78,United States,2.5,Costa Rica,54840103850.265,18120714000000.0
+187,Bisou,Belize,2015,0.86,United States,3.25,Belize,1742545900.0,18120714000000.0
+188,Bittersweet Origins,Ghana,2012,0.72,United States,3.5,Ghana,41939728978.7281,16155255000000.0
+189,Bittersweet Origins,Bali,2010,0.75,United States,3.25,Indonesia,755094160363.071,14964372000000.0
+190,Bittersweet Origins,2009 Hapa Nibby,2010,0.7,United States,3.75,Dominican Republic,53954579003.5277,14964372000000.0
+191,Bittersweet Origins,Bali,2010,0.65,United States,2.75,Indonesia,755094160363.071,14964372000000.0
+192,Bittersweet Origins,Sambirano,2010,0.7,United States,3.0,Madagascar,8729936135.74487,14964372000000.0
+194,Bittersweet Origins,Puerto Plata,2009,0.75,United States,3.0,Dominican Republic,48376555305.6902,14418739000000.0
+195,Bittersweet Origins,Puerto Plata,2009,0.65,United States,3.5,Dominican Republic,48376555305.6902,14418739000000.0
+196,Bittersweet Origins,Sambirano,2009,0.75,United States,3.25,Madagascar,8550363974.79243,14418739000000.0
+197,Bittersweet Origins,Sambirano,2009,0.65,United States,3.5,Madagascar,8550363974.79243,14418739000000.0
+198,Bittersweet Origins,Sambirano,2008,0.71,United States,3.0,Madagascar,9413002920.97008,14718582000000.0
+199,Bittersweet Origins,Bocas del Toro,2008,0.75,United States,3.5,Panama,24522200000.0,14718582000000.0
+200,Bittersweet Origins,Puerto Plata,2008,0.68,United States,3.75,Dominican Republic,48288967303.4896,14718582000000.0
+201,Bittersweet Origins,Ankasa,2008,0.7,United States,3.0,Ghana,28526891010.4925,14718582000000.0
+202,Black Mountain,La Red,2008,0.7,United States,2.75,Dominican Republic,48288967303.4896,14718582000000.0
+204,Black Mountain,Matiguas,2008,0.7,United States,3.0,Nicaragua,8496965842.2767,14718582000000.0
+205,Black River (A. Morin),Blue Mountain Region,2014,0.7,United Kingdom,2.75,Jamaica,13897723431.3942,3022827781881.39
+207,Blue Bandana,Akesson's E.,2016,0.82,United States,3.5,Madagascar,10001193420.1518,18624475000000.0
+208,Blue Bandana,Lachua,2016,0.75,United States,2.75,Guatemala,68763255963.8943,18624475000000.0
+209,Blue Bandana,Kokoa Kamili,2016,0.75,United States,3.5,Tanzania,47340071107.343,18624475000000.0
+210,Blue Bandana,Zorzal Reserva,2016,0.75,United States,3.0,Dominican Republic,71583553487.5646,18624475000000.0
+211,Blue Bandana,Guatemala,2012,0.7,United States,3.5,Guatemala,50388454861.1111,16155255000000.0
+212,Blue Bandana,Madagascar,2012,0.7,United States,3.75,Madagascar,9919780071.28764,16155255000000.0
+213,Bonnat,Selva Maya,2016,0.75,France,3.5,Mexico,1046922702460.87,2465453975282.24
+214,Bonnat,Kaori,2014,0.75,France,4.0,Brazil,2455993200170.0,2849305322684.76
+215,Bonnat,Los Colorados,2014,0.75,France,3.25,Dominican Republic,65231032303.2418,2849305322684.76
+217,Bonnat,Maragnam,2013,0.75,France,3.5,Brazil,2472806919901.67,2808511203185.39
+218,Bonnat,Gabon,2013,0.75,France,3.25,Gabon,17590745688.6082,2808511203185.39
+219,Bonnat,Cuba,2011,0.75,France,3.5,Cuba,68990000000.0,2862680142625.14
+220,Bonnat,Cusco,2011,0.75,France,3.5,Peru,171761737046.585,2862680142625.14
+221,Bonnat,Piura Blanco,2011,0.75,France,3.5,Peru,171761737046.585,2862680142625.14
+222,Bonnat,Libanio,2011,0.75,France,3.75,Brazil,2616201578192.25,2862680142625.14
+223,Bonnat,Haiti,2011,0.75,France,4.0,Haiti,7516834160.25277,2862680142625.14
+224,Bonnat,Madagascar,2011,0.75,France,4.0,Madagascar,9892702357.56691,2862680142625.14
+225,Bonnat,Juliana,2011,0.75,France,3.5,Brazil,2616201578192.25,2862680142625.14
+226,Bonnat,Jamaique,2011,0.75,France,3.25,Jamaica,14439910353.0576,2862680142625.14
+228,Bonnat,Porcelana,2009,0.75,France,2.75,Peru,120822986521.479,2693827452070.02
+229,Bonnat,Porcelana,2009,0.75,France,3.0,Mexico,894948748436.748,2693827452070.02
+230,Bonnat,Xoconusco,2009,0.75,France,3.0,Mexico,894948748436.748,2693827452070.02
+232,Bonnat,Equateur,2007,0.75,France,2.5,Ecuador,51007777000.0,2663112510265.54
+236,Bonnat,Madagascar,2006,0.75,France,4.0,Madagascar,5515884348.54904,2325011918203.49
+237,Bonnat,Ceylan,2006,0.75,France,3.0,Sri Lanka,28279814924.5918,2325011918203.49
+239,Bouga Cacao (Tulicorp),El Oro,2009,0.77,Ecuador,3.25,Ecuador,62519686000.0,62519686000.0
+240,Bouga Cacao (Tulicorp),El Oro,2009,0.1,Ecuador,1.5,Ecuador,62519686000.0,62519686000.0
+241,Bowler Man,Maya Mountain,2014,0.7,United States,2.75,Belize,1706497950.0,17393103000000.0
+242,Bowler Man,Conacado,2014,0.7,United States,2.75,Dominican Republic,65231032303.2418,17393103000000.0
+244,Brasstown aka It's Chocolate,O'payo,2016,0.7,United States,3.75,Nicaragua,13230844686.858,18624475000000.0
+245,Brasstown aka It's Chocolate,Conacado,2015,0.68,United States,3.75,Dominican Republic,68102618092.1031,18120714000000.0
+246,Brasstown aka It's Chocolate,Maya Mountain,2014,0.7,United States,3.75,Belize,1706497950.0,17393103000000.0
+248,Brasstown aka It's Chocolate,Cooproagro,2013,0.72,United States,3.0,Dominican Republic,61965942056.6828,16691517000000.0
+249,Brasstown aka It's Chocolate,Camino Verde,2013,0.7,United States,3.25,Ecuador,95129659000.0,16691517000000.0
+250,Brasstown aka It's Chocolate,Ghana,2013,0.75,United States,3.5,Ghana,47805069494.9081,16691517000000.0
+252,Brazen,Elvesia P.,2015,0.6,United States,3.0,Dominican Republic,68102618092.1031,18120714000000.0
+253,Brazen,Elvesia P.,2015,0.8,United States,3.25,Dominican Republic,68102618092.1031,18120714000000.0
+254,Brazen,Alta Verapaz,2015,0.7,United States,3.5,Guatemala,63767597193.9175,18120714000000.0
+255,Brazen,Ambolikapiky P.,2015,0.8,United States,2.75,Madagascar,9744243420.48073,18120714000000.0
+256,Brazen,Maya Mountain,2015,0.8,United States,3.25,Belize,1742545900.0,18120714000000.0
+257,Brazen,Ambolikapkly P.,2015,0.6,United States,3.25,Madagascar,9744243420.48073,18120714000000.0
+258,Breeze Mill,Jamaica,2013,0.7,United States,3.0,Jamaica,14274983015.9485,16691517000000.0
+259,Bright,Somia Plantation,2014,0.72,Australia,3.0,Madagascar,10673516672.6664,1459597906912.7
+260,Bright,Marabel Farms,2014,0.7,Australia,3.5,Dominican Republic,65231032303.2418,1459597906912.7
+261,Bright,Camino Verde,2014,0.72,Australia,3.5,Ecuador,101726331000.0,1459597906912.7
+264,Bronx Grrl Chocolate,Dominican Republic,2013,0.68,United States,2.75,Dominican Republic,61965942056.6828,16691517000000.0
+266,Burnt Fork Bend,Mindo,2014,0.72,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+267,Burnt Fork Bend,Belize,2014,0.72,United States,3.25,Belize,1706497950.0,17393103000000.0
+268,Burnt Fork Bend,Ecuador,2014,0.6,United States,2.5,Ecuador,101726331000.0,17393103000000.0
+270,Cacao Atlanta,Tumbes,2014,0.75,United States,2.5,Peru,201049665375.132,17393103000000.0
+271,Cacao Atlanta,Dominican Republic,2010,0.75,United States,2.5,Dominican Republic,53954579003.5277,14964372000000.0
+272,Cacao Atlanta,Dominican Republic w/ nibs,2010,0.75,United States,2.75,Dominican Republic,53954579003.5277,14964372000000.0
+274,Cacao Barry,Grand 'Anse,2016,0.65,France,3.5,Haiti,8022638721.92013,2465453975282.24
+275,Cacao Barry,Santo Domingo,2010,0.7,France,3.0,Dominican Republic,53954579003.5277,2646837111794.78
+276,Cacao Barry,Tanzania,2008,0.75,France,2.0,Tanzania,27368386358.131,2923465651091.26
+278,Cacao Barry,Mexico,2007,0.66,France,3.0,Mexico,1043471321169.09,2663112510265.54
+286,Cacao Hunters,Macondo,2016,0.71,Colombia,3.75,Colombia,282462551366.878,282462551366.878
+287,Cacao Hunters,Perla Negra,2016,0.74,Colombia,3.75,Colombia,282462551366.878,282462551366.878
+288,Cacao Hunters,Arhuacos,2015,0.72,Colombia,3.75,Colombia,291519596338.693,291519596338.693
+289,Cacao Hunters,Sierra Nevada,2014,0.64,Colombia,3.5,Colombia,378195707612.393,378195707612.393
+290,Cacao Hunters,Tumaco,2014,0.7,Colombia,3.5,Colombia,378195707612.393,378195707612.393
+291,Cacao Hunters,Boyaca,2014,0.69,Colombia,2.75,Colombia,378195707612.393,378195707612.393
+292,Cacao Hunters,Arauca,2014,0.7,Colombia,3.25,Colombia,378195707612.393,378195707612.393
+293,Cacao Market,Jutiapa,2016,0.7,United States,3.5,Honduras,21516938909.5686,18624475000000.0
+294,Cacao Prieto,Criollo,2012,0.72,United States,3.75,Dominican Republic,60613645121.3529,16155255000000.0
+295,Cacao Prieto,Dominican Republicm,2011,0.72,United States,3.0,Dominican Republic,57746684847.0898,15517926000000.0
+296,Cacao Prieto,Dominican Republic,2011,0.66,United States,3.75,Dominican Republic,57746684847.0898,15517926000000.0
+297,Cacao Prieto,Dominican Republic,2011,0.65,United States,3.25,Dominican Republic,57746684847.0898,15517926000000.0
+299,Cacao Sampaka,Madagascar,2010,0.71,Spain,3.5,Madagascar,8729936135.74487,1431616749640.29
+300,Cacao Sampaka,Ecuador,2010,0.71,Spain,3.75,Ecuador,69555367000.0,1431616749640.29
+301,Cacao Sampaka,Papua,2010,0.71,Spain,4.0,Papua New Guinea,14250726289.854,1431616749640.29
+302,Cacao Sampaka,Grenada,2010,0.71,Spain,3.25,Grenada,771015888.888889,1431616749640.29
+305,Cacao Sampaka,Porcelana,2009,0.7,Spain,4.0,Mexico,894948748436.748,1499099749930.54
+306,Cacao Sampaka,Xoconusco,2009,0.7,Spain,4.0,Mexico,894948748436.748,1499099749930.54
+307,Cacao Store,Madagascar,2015,0.7,Japan,3.0,Madagascar,9744243420.48073,4383076298081.86
+308,Cacao Store,Peru,2015,0.7,Japan,3.25,Peru,189212096470.293,4383076298081.86
+309,Cacao Store,Vietnam,2015,0.7,Japan,3.5,Vietnam,193241108709.536,4383076298081.86
+310,Cacaosuyo (Theobroma Inversiones),Piura,2013,0.7,Peru,3.25,Peru,201217661645.509,201217661645.509
+311,Cacaoyere (Ecuatoriana),Amazonia,2008,0.63,Ecuador,3.5,Ecuador,61762635000.0,61762635000.0
+312,Cacaoyere (Ecuatoriana),Esmeraldas,2008,0.71,Ecuador,3.5,Ecuador,61762635000.0,61762635000.0
+313,Cacaoyere (Ecuatoriana),Bolivar,2008,0.82,Ecuador,2.5,Ecuador,61762635000.0,61762635000.0
+314,Cacaoyere (Ecuatoriana),Pichincha,2008,0.91,Ecuador,1.5,Ecuador,61762635000.0,61762635000.0
+315,Callebaut,Grenade,2008,0.6,Belgium,2.75,Grenada,825977888.888889,518625897172.99
+316,Callebaut,Baking,2007,0.7,Belgium,1.0,Ecuador,51007777000.0,471821105940.323
+317,C-Amaro,Cuba,2014,0.75,Italy,2.5,Cuba,80656100000.0,2151732868243.21
+318,C-Amaro,Dominican Republic,2014,0.72,Italy,3.0,Dominican Republic,65231032303.2418,2151732868243.21
+319,C-Amaro,Ecuador,2013,0.1,Italy,3.5,Ecuador,95129659000.0,2130491320658.68
+324,Cao,Tanzania,2016,0.73,United States,2.75,Tanzania,47340071107.343,18624475000000.0
+326,Cao,Bolivia,2016,0.75,United States,3.0,Bolivia,33806395513.7482,18624475000000.0
+327,Cao,Brazil,2016,0.7,United States,3.25,Brazil,1796186586414.45,18624475000000.0
+328,Caoni (Tulicorp),Esmeraldas,2008,0.77,Ecuador,2.0,Ecuador,61762635000.0,61762635000.0
+329,Caoni (Tulicorp),Manabi,2008,0.77,Ecuador,2.5,Ecuador,61762635000.0,61762635000.0
+330,Caoni (Tulicorp),Los Rios,2008,0.77,Ecuador,2.75,Ecuador,61762635000.0,61762635000.0
+331,Caoni (Tulicorp),Manabi,2008,0.55,Ecuador,3.0,Ecuador,61762635000.0,61762635000.0
+332,Caoni (Tulicorp),Los Rios,2008,0.55,Ecuador,3.25,Ecuador,61762635000.0,61762635000.0
+333,Caoni (Tulicorp),Esmeraldas,2008,0.55,Ecuador,3.5,Ecuador,61762635000.0,61762635000.0
+334,Captain Pembleton,Saidor Estate,2014,0.7,New Zealand,3.5,Papua New Guinea,23003575201.1051,200696291789.952
+335,Captain Pembleton,Kulili Estate,2014,0.7,New Zealand,3.75,Papua New Guinea,23003575201.1051,200696291789.952
+336,Caribeans,Antigua,2015,0.72,Costa Rica,3.5,Guatemala,63767597193.9175,54840103850.265
+337,Caribeans,Talamanca,2015,0.72,Costa Rica,3.25,Costa Rica,54840103850.265,54840103850.265
+338,Caribeans,Anselmo Paraiso Estate,2015,0.72,Costa Rica,3.5,Costa Rica,54840103850.265,54840103850.265
+339,Caribeans,Costa Rica,2012,0.72,Costa Rica,3.0,Costa Rica,46473128285.5589,46473128285.5589
+340,Caribeans,Costa Rica,2012,0.8,Costa Rica,2.75,Costa Rica,46473128285.5589,46473128285.5589
+341,Carlotta Chocolat,Arauca,2016,0.65,Colombia,3.0,Colombia,282462551366.878,282462551366.878
+342,Carlotta Chocolat,Tumaco,2016,0.65,Colombia,3.25,Colombia,282462551366.878,282462551366.878
+343,Carlotta Chocolat,Cordoba,2016,0.65,Colombia,3.25,Colombia,282462551366.878,282462551366.878
+344,Carlotta Chocolat,Huila,2016,0.65,Colombia,3.5,Colombia,282462551366.878,282462551366.878
+345,Carlotta Chocolat,Cesar,2016,0.65,Colombia,3.5,Colombia,282462551366.878,282462551366.878
+346,Castronovo,Maya Mtn,2016,0.72,United States,4.0,Belize,1741100000.0,18624475000000.0
+347,Castronovo,the lost city,2015,0.72,United States,3.5,Honduras,20844284855.0025,18120714000000.0
+348,Castronovo,Duarte,2015,0.7,United States,3.75,Dominican Republic,68102618092.1031,18120714000000.0
+350,Castronovo,Sierra Nevada,2014,0.72,United States,3.5,Colombia,378195707612.393,17393103000000.0
+351,Castronovo,Arauca,2014,0.76,United States,3.5,Colombia,378195707612.393,17393103000000.0
+352,Castronovo,Elvesia P.,2014,0.7,United States,2.75,Dominican Republic,65231032303.2418,17393103000000.0
+353,Castronovo,Bolivia,2013,0.7,United States,3.0,Bolivia,30659338929.0883,16691517000000.0
+354,Castronovo,Conacado,2013,0.73,United States,3.5,Dominican Republic,61965942056.6828,16691517000000.0
+355,Castronovo,San Martin,2013,0.7,United States,2.5,Peru,201217661645.509,16691517000000.0
+357,Castronovo,Nicaragua,2013,0.72,United States,3.25,Nicaragua,10982972256.3787,16691517000000.0
+358,Castronovo,Tumbes,2013,0.7,United States,2.75,Peru,201217661645.509,16691517000000.0
+360,Cello,Ecuador,2014,0.7,United States,2.5,Ecuador,101726331000.0,17393103000000.0
+361,Cello,Peru,2014,0.7,United States,2.75,Peru,201049665375.132,17393103000000.0
+363,Cello,Bolivia,2014,0.7,United States,3.0,Bolivia,32996187988.4226,17393103000000.0
+364,Cemoi,Equateur,2009,0.72,France,2.75,Ecuador,62519686000.0,2693827452070.02
+365,Chaleur B,Uganda,2014,0.7,Canada,2.75,Uganda,27295207927.5612,1792883225804.38
+366,Charm School,Maya Mtn,2016,0.7,United States,3.25,Belize,1741100000.0,18624475000000.0
+367,Chchukululu (Tulicorp),Arriba,2010,0.55,Ecuador,2.75,Ecuador,69555367000.0,69555367000.0
+368,Chchukululu (Tulicorp),Los Rios,2008,0.75,Ecuador,3.0,Ecuador,61762635000.0,61762635000.0
+369,Chequessett,la Amistad,2014,0.7,United States,3.5,Costa Rica,50656002895.8763,17393103000000.0
+370,Chocablog,Ecuador,2015,0.7,United Kingdom,3.25,Ecuador,99290381000.0,2885570309160.86
+371,Choco Del Sol,Maya Mountain w/ nibs,2014,0.75,Germany,3.0,Belize,1706497950.0,3890606893346.69
+372,Choco Del Sol,Maya Mountain,2014,0.82,Germany,3.25,Belize,1706497950.0,3890606893346.69
+375,Chocolarder,Peru,2015,0.65,United Kingdom,2.5,Peru,189212096470.293,2885570309160.86
+376,Chocolarder,Peru + nibs,2015,0.65,United Kingdom,2.75,Peru,189212096470.293,2885570309160.86
+377,Chocolarder,Dominican Republic,2015,0.8,United Kingdom,2.5,Dominican Republic,68102618092.1031,2885570309160.86
+378,Chocola'te,Madagascar,2011,0.7,United States,3.75,Madagascar,9892702357.56691,15517926000000.0
+380,Chocolate Alchemist-Philly,Tumbes,2016,0.9,United States,2.5,Peru,192207342004.681,18624475000000.0
+381,Chocolate Con Amor,Wild Bolivian,2016,0.7,United States,2.5,Bolivia,33806395513.7482,18624475000000.0
+382,Chocolate Con Amor,Uganda,2016,0.7,United States,2.75,Uganda,24078931933.4578,18624475000000.0
+383,Chocolate Con Amor,Dominican Republic,2016,0.6,United States,3.0,Dominican Republic,71583553487.5646,18624475000000.0
+384,Chocolate Con Amor,Dominican Republic,2016,0.75,United States,3.0,Dominican Republic,71583553487.5646,18624475000000.0
+386,Chocolate Con Amor,Ecuador,2016,0.7,United States,3.25,Ecuador,98613972000.0,18624475000000.0
+387,Chocolate Con Amor,Nicaragua,2016,0.8,United States,2.75,Nicaragua,13230844686.858,18624475000000.0
+388,Chocolate Conspiracy,Peru,2014,0.74,United States,2.75,Peru,201049665375.132,17393103000000.0
+398,Chocolats Privilege,Xoconusco,2014,0.7,Canada,2.5,Mexico,1298461494903.14,1792883225804.38
+400,Chocosol,Chiapas,2011,0.65,Canada,3.25,Mexico,1171187519660.64,1788647906047.76
+401,Chocovic,Xoconusco,2010,0.71,Spain,3.25,Mexico,1051128603513.77,1431616749640.29
+402,Chocovic,Sambirano,2010,0.71,Spain,3.5,Madagascar,8729936135.74487,1431616749640.29
+404,Chocovic,Bolivar,2007,0.71,Spain,2.5,Ecuador,51007777000.0,1479341637010.68
+405,Chocovic,Guyave,2007,0.71,Spain,2.5,Grenada,758683598.518519,1479341637010.68
+406,Chocovivo,Tabasco,2015,0.65,United States,2.5,Mexico,1152263780657.86,18120714000000.0
+407,Chocovivo,Tabasco,2015,0.75,United States,2.5,Mexico,1152263780657.86,18120714000000.0
+409,Choklat,Porcelana,2009,0.7,Canada,2.75,Mexico,894948748436.748,1371153004986.44
+410,Choklat,Brazilian,2009,0.7,Canada,3.0,Brazil,1667019605881.76,1371153004986.44
+411,Choklat,Brazilian,2009,0.8,Canada,3.0,Brazil,1667019605881.76,1371153004986.44
+414,Choocsol,Chiapas,2016,0.75,Canada,3.25,Mexico,1046922702460.87,1529760492201.35
+415,Christopher Morel (Felchlin),Maranon Canyon,2011,0.68,Canada,3.75,Peru,171761737046.585,1788647906047.76
+422,Cloudforest,Camino Verde P.,2015,0.73,United States,3.5,Ecuador,99290381000.0,18120714000000.0
+423,Coleman & Davis,Sambirano,2015,0.75,United States,3.0,Madagascar,9744243420.48073,18120714000000.0
+426,Compania de Chocolate (Salgado),Moxos,2008,0.72,Argentina,3.25,Bolivia,16674324634.2373,361558037110.419
+428,Compania de Chocolate (Salgado),Esmeraldas,2008,0.88,Argentina,2.75,Ecuador,61762635000.0,361558037110.419
+429,Condor,Camino Verde,2015,0.76,United States,3.5,Ecuador,99290381000.0,18120714000000.0
+430,Confluence,Tien Giang,2016,0.78,United States,2.75,Vietnam,205276172134.901,18624475000000.0
+431,Coppeneur,Ecuador,2013,0.65,Germany,3.25,Ecuador,95129659000.0,3752513503278.41
+432,Coppeneur,Ghana Puristique,2012,0.85,Germany,3.5,Ghana,41939728978.7281,3543983909148.01
+433,Coppeneur,Ecuador Puristique,2012,0.1,Germany,1.5,Ecuador,87924544000.0,3543983909148.01
+435,Coppeneur,Madagascar,2012,0.7,Germany,3.5,Madagascar,9919780071.28764,3543983909148.01
+436,Coppeneur,Grenada,2010,0.72,Germany,3.25,Grenada,771015888.888889,3417094562648.95
+438,Coppeneur,Los Rios,2010,0.72,Germany,2.5,Ecuador,69555367000.0,3417094562648.95
+440,Coppeneur,Jamaica,2010,0.72,Germany,3.25,Jamaica,13191645685.5116,3417094562648.95
+442,Coppeneur,Porcelana,2009,0.72,Germany,3.0,Peru,120822986521.479,3418005001389.27
+443,Coppeneur,Porcelana,2009,0.62,Germany,3.25,Peru,120822986521.479,3418005001389.27
+446,Coppeneur,Porcelana,2008,0.72,Germany,3.0,Mexico,1101275278668.79,3752365607148.09
+448,Coppeneur,Sambirano,2007,0.72,Germany,3.0,Madagascar,7342923489.09616,3439953462907.2
+449,Cravve,New Ireland,2014,0.7,Australia,2.5,Papua New Guinea,23003575201.1051,1459597906912.7
+450,Cravve,Vanuatu,2014,0.83,Australia,2.75,Vanuatu,814954306.971033,1459597906912.7
+451,Cravve,Tanzania,2012,0.75,Australia,3.25,Tanzania,39087748240.4403,1538194473087.23
+452,Cravve,Bahia,2012,0.65,Australia,3.25,Brazil,2465188674415.03,1538194473087.23
+453,Cravve,Namau Village,2012,0.67,Australia,3.25,Fiji,3972012570.53467,1538194473087.23
+454,Cravve,Vanuatu,2012,0.64,Australia,3.25,Vanuatu,781702874.106058,1538194473087.23
+455,Cravve,Djual Island,2012,0.75,Australia,3.5,Papua New Guinea,21295834133.2309,1538194473087.23
+456,Creo,"""heirloom""",2016,0.85,United States,3.25,Ecuador,98613972000.0,18624475000000.0
+457,Creo,"""heirloom""",2016,0.73,United States,3.75,Ecuador,98613972000.0,18624475000000.0
+458,Daintree,Goodman Estate,2015,0.7,Australia,2.75,Australia,1345383143356.35,1345383143356.35
+459,Daintree,Daintree Estates,2011,0.7,Australia,3.25,Australia,1390557034407.97,1390557034407.97
+462,Damson,Los Rios,2015,0.7,United Kingdom,3.5,Ecuador,99290381000.0,2885570309160.86
+463,Damson,Crayfish Bay aka Non Pariel Estate,2015,0.7,United Kingdom,2.25,Grenada,997007925.925926,2885570309160.86
+464,Damson,O'Payo,2015,0.7,United Kingdom,2.75,Nicaragua,12747741539.7259,2885570309160.86
+465,Dandelion,Maya Mtn.,2015,0.7,United States,3.0,Belize,1742545900.0,18120714000000.0
+466,Dandelion,Maya Mountain,2014,0.7,United States,3.5,Belize,1706497950.0,17393103000000.0
+467,Dandelion,Camino Verde P.,2014,0.7,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+468,Dandelion,Buto,2014,0.7,United States,2.75,Liberia,2013000000.0,17393103000000.0
+469,Dandelion,San Francisco de Macoris,2014,0.7,United States,3.75,Dominican Republic,65231032303.2418,17393103000000.0
+473,Dandelion,Papua New Guinea,2013,0.7,United States,3.5,Papua New Guinea,21261305413.2323,16691517000000.0
+474,Dandelion,Upala,2012,0.7,United States,3.0,Costa Rica,46473128285.5589,16155255000000.0
+475,Dandelion,Colombian,2012,0.7,United States,3.25,Colombia,369659697842.885,16155255000000.0
+476,Dandelion,Elvesia,2012,0.7,United States,3.75,Dominican Republic,60613645121.3529,16155255000000.0
+477,Dandelion,Dominican Republic,2011,0.7,United States,3.25,Dominican Republic,57746684847.0898,15517926000000.0
+478,Dandelion,Madagascar,2011,0.7,United States,3.25,Madagascar,9892702357.56691,15517926000000.0
+479,Dandelion,Tanzania,2011,0.7,United States,3.25,Tanzania,33878631649.4157,15517926000000.0
+480,Danta,Los Ujuxtes,2014,0.82,Guatemala,3.25,Guatemala,58722323918.1604,58722323918.1604
+482,Danta,Los Ujuxtes,2012,0.7,Guatemala,3.75,Guatemala,50388454861.1111,50388454861.1111
+483,Danta,Sambirano,2012,0.7,Guatemala,3.75,Madagascar,9919780071.28764,50388454861.1111
+484,Danta,Las Acacias E.,2012,0.7,Guatemala,4.0,Guatemala,50388454861.1111,50388454861.1111
+485,Danta,Oscuro,2012,0.7,Guatemala,3.25,Guatemala,50388454861.1111,50388454861.1111
+486,Danta,Los Ujuxtes,2011,0.6,Guatemala,3.5,Guatemala,47654841112.8523,47654841112.8523
+487,Danta,Las Acacias E.,2009,0.75,Guatemala,3.0,Guatemala,37733994976.4137,37733994976.4137
+488,Danta,Las Acacias E.,2009,0.6,Guatemala,3.25,Guatemala,37733994976.4137,37733994976.4137
+490,DAR,Vietnam,2016,0.72,United States,3.0,Vietnam,205276172134.901,18624475000000.0
+491,DAR,DUO,2016,0.7,United States,3.25,Ecuador,98613972000.0,18624475000000.0
+492,Dark Forest,Bolivia,2016,0.75,United States,3.25,Bolivia,33806395513.7482,18624475000000.0
+493,Dark Forest,Madagascar,2015,0.7,United States,3.0,Madagascar,9744243420.48073,18120714000000.0
+495,Dark Forest,Tanzania,2015,0.7,United States,3.0,Tanzania,45628320606.0487,18120714000000.0
+496,Dark Forest,Ecuador,2015,0.7,United States,3.25,Ecuador,99290381000.0,18120714000000.0
+497,Davis,Ghana,2013,0.7,United States,2.5,Ghana,47805069494.9081,16691517000000.0
+498,Davis,Rainforest,2013,0.7,United States,2.75,Dominican Republic,61965942056.6828,16691517000000.0
+501,De Mendes,Nativo,2015,0.72,Brazil,3.5,Brazil,1803652649613.75,1803652649613.75
+502,De Mendes,Selvagem,2015,0.65,Brazil,3.5,Brazil,1803652649613.75,1803652649613.75
+503,De Villiers,Bundibugyo District,2016,0.7,South Africa,2.5,Uganda,24078931933.4578,295456189492.005
+504,De Villiers,Sambirano Valley,2016,0.7,South Africa,3.0,Madagascar,10001193420.1518,295456189492.005
+505,Dean and Deluca (Belcolade),Madagascar,2007,0.66,United States,2.5,Madagascar,7342923489.09616,14477635000000.0
+506,Dean and Deluca (Belcolade),Costa Rica,2007,0.64,United States,3.0,Costa Rica,26743874286.8514,14477635000000.0
+507,Dean and Deluca (Belcolade),Ecuador,2007,0.71,United States,3.0,Ecuador,51007777000.0,14477635000000.0
+508,Dean and Deluca (Belcolade),Ghana,2007,0.6,United States,3.0,Ghana,24758819717.7074,14477635000000.0
+509,Dean and Deluca (Belcolade),Papua New Guinea,2007,0.64,United States,3.0,Papua New Guinea,9545071324.99241,14477635000000.0
+510,Dean and Deluca (Belcolade),Peru,2007,0.64,United States,3.0,Peru,102170981144.136,14477635000000.0
+511,Debauve & Gallais (Michel Cluizel),Papua New Guinea,2009,0.64,France,3.0,Papua New Guinea,11619541940.4014,2693827452070.02
+513,Desbarres,Kilombero,2016,0.72,Canada,2.5,Tanzania,47340071107.343,1529760492201.35
+514,DeVries,Bolivian,2008,0.8,United States,2.75,Bolivia,16674324634.2373,14718582000000.0
+515,DeVries,Costa Rica,2007,0.77,United States,3.5,Costa Rica,26743874286.8514,14477635000000.0
+516,DeVries,Dominican Republic,2007,0.77,United States,3.5,Dominican Republic,44169678153.1566,14477635000000.0
+518,Dick Taylor,Tien Giang,2016,0.78,United States,3.5,Vietnam,205276172134.901,18624475000000.0
+519,Dick Taylor,Alto Beni,2015,0.7,United States,3.75,Bolivia,33000198263.3864,18120714000000.0
+520,Dick Taylor,Elvesia,2014,0.74,United States,3.5,Dominican Republic,65231032303.2418,17393103000000.0
+521,Dick Taylor,Ecuador,2013,0.7,United States,3.25,Ecuador,95129659000.0,16691517000000.0
+522,Dick Taylor,Camino Verde,2013,0.76,United States,3.5,Ecuador,95129659000.0,16691517000000.0
+523,Dick Taylor,Bolivia,2012,0.75,United States,2.75,Bolivia,27084497539.7974,16155255000000.0
+524,Dick Taylor,Belize,2012,0.72,United States,2.75,Belize,1573618750.0,16155255000000.0
+525,Dick Taylor,Sambirano,2011,0.8,United States,2.75,Madagascar,9892702357.56691,15517926000000.0
+526,Dick Taylor,Sambirano,2011,0.72,United States,3.0,Madagascar,9892702357.56691,15517926000000.0
+528,Dick Taylor,La Red,2011,0.74,United States,3.0,Dominican Republic,57746684847.0898,15517926000000.0
+529,Dick Taylor,Ecuador,2011,0.7,United States,3.25,Ecuador,79276664000.0,15517926000000.0
+531,Doble & Bignall,Panama,2014,0.72,United Kingdom,3.25,Panama,49165773100.0,3022827781881.39
+533,Doble & Bignall,Johe,2014,0.72,United Kingdom,3.5,Nicaragua,11880438824.4494,3022827781881.39
+536,Domori,Hacienda Victoria,2015,0.7,Italy,3.75,Ecuador,99290381000.0,1832347450961.51
+539,Domori,Morogoro,2012,0.7,Italy,3.5,Tanzania,39087748240.4403,2072823157059.76
+544,Domori,Teyuna,2008,0.7,Italy,3.0,Colombia,243982436734.233,2390729163615.06
+548,Domori,Madagascar,2007,0.7,Italy,3.5,Madagascar,7342923489.09616,2203053380782.92
+549,Domori,Madagared,2007,0.7,Italy,3.5,Madagascar,7342923489.09616,2203053380782.92
+550,Domori,Java,2007,0.7,Italy,3.75,Indonesia,460192550124.261,2203053380782.92
+551,Domori,Ecuador,2007,0.7,Italy,4.0,Ecuador,51007777000.0,2203053380782.92
+554,Domori,Apurimac,2006,0.7,Italy,3.25,Peru,88643193061.748,1942633797516.0
+556,Dormouse,Non Pariel Estate,2016,0.75,United Kingdom,2.75,Grenada,1056188592.59259,2647898654635.24
+558,Dormouse,Colombia,2015,0.8,United Kingdom,2.75,Colombia,291519596338.693,2885570309160.86
+559,Dormouse,Madagascar,2015,0.77,United Kingdom,2.75,Madagascar,9744243420.48073,2885570309160.86
+560,Duffy's,Rio Dulce,2015,0.7,United Kingdom,4.0,Guatemala,63767597193.9175,2885570309160.86
+561,Duffy's,Chuno,2014,0.7,United Kingdom,3.5,Nicaragua,11880438824.4494,3022827781881.39
+562,Duffy's,Rico Rugoso,2014,0.76,United Kingdom,3.75,Nicaragua,11880438824.4494,3022827781881.39
+564,Duffy's,Indio Rojo,2011,0.72,United Kingdom,3.75,Honduras,17710315005.9999,2619700404733.37
+565,Duffy's,Dominican Republic,2011,0.65,United Kingdom,3.5,Dominican Republic,57746684847.0898,2619700404733.37
+566,Duffy's,Bocas del Toro,2011,0.72,United Kingdom,3.0,Panama,34373820500.0,2619700404733.37
+567,Duffy's,Nicaliso,2011,0.71,United Kingdom,3.25,Nicaragua,9774316692.15985,2619700404733.37
+569,Duffy's,Panama,2010,0.7,United Kingdom,3.5,Panama,28917200000.0,2441173394729.62
+570,Duffy's,Corazon del Ecuador,2010,0.72,United Kingdom,3.75,Ecuador,69555367000.0,2441173394729.62
+571,Duffy's,Star of Ecuador,2010,0.7,United Kingdom,2.5,Ecuador,69555367000.0,2441173394729.62
+572,Duffy's,Star of Peru,2010,0.7,United Kingdom,3.75,Peru,147528937028.778,2441173394729.62
+573,Dulcinea,Dominican Republic,2015,0.7,United States,3.25,Dominican Republic,68102618092.1031,18120714000000.0
+574,Durand,Madagascar,2012,0.82,France,2.75,Madagascar,9919780071.28764,2681416108537.39
+575,Durci,Maranon,2015,0.7,United States,3.5,Peru,189212096470.293,18120714000000.0
+577,Durci,Taino Secret,2015,0.7,United States,3.25,Dominican Republic,68102618092.1031,18120714000000.0
+579,Durci,Corona Arriba,2015,0.7,United States,4.0,Ecuador,99290381000.0,18120714000000.0
+580,East Van Roasters,Peru,2014,0.7,Canada,3.25,Peru,201049665375.132,1792883225804.38
+581,East Van Roasters,Madagascar,2014,0.7,Canada,3.5,Madagascar,10673516672.6664,1792883225804.38
+582,East Van Roasters,Dominican Republic,2014,0.7,Canada,3.75,Dominican Republic,65231032303.2418,1792883225804.38
+583,Eau de Rose,Tumaco,2016,0.7,Canada,3.25,Colombia,282462551366.878,1529760492201.35
+584,Eau de Rose,Arauca,2016,0.7,Canada,3.25,Colombia,282462551366.878,1529760492201.35
+585,Eclat (Felchlin),Maranon,2012,0.72,United States,2.75,Peru,192648999090.082,16155255000000.0
+587,El Ceibo,Alto Beni,2011,0.75,Bolivia,3.75,Bolivia,23963033443.8518,23963033443.8518
+588,El Ceibo,Alto Beni,2008,0.71,Bolivia,2.75,Bolivia,16674324634.2373,16674324634.2373
+596,Emerald Estate,Emerald Estate,2013,0.6,St. Lucia,2.75,St. Lucia,1489928888.88889,1489928888.88889
+597,Emerald Estate,Emerald Estate,2013,0.7,St. Lucia,3.25,St. Lucia,1489928888.88889,1489928888.88889
+599,Emily's,Peru,2015,0.78,Japan,3.5,Peru,189212096470.293,4383076298081.86
+600,ENNA,Wampusirpi,2016,0.75,United States,3.25,Honduras,21516938909.5686,18624475000000.0
+602,Erithaj (A. Morin),Ben Tre,2014,0.7,France,3.25,Vietnam,186204652922.262,2849305322684.76
+603,Erithaj (A. Morin),Ham Luong,2014,0.8,France,3.0,Vietnam,186204652922.262,2849305322684.76
+604,Erithaj (A. Morin),Ba Lai,2014,0.74,France,3.25,Vietnam,186204652922.262,2849305322684.76
+606,Escazu,Guapiles,2009,0.65,United States,2.0,Costa Rica,30562361123.0307,14418739000000.0
+610,Ethel's Artisan (Mars),Peru,2011,0.55,United States,2.5,Peru,171761737046.585,15517926000000.0
+614,Ethereal,Belize,2014,0.8,United States,3.0,Belize,1706497950.0,17393103000000.0
+615,Ethereal,Ecuador,2014,0.8,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+616,Ethereal,Dominican Republic,2014,0.8,United States,3.75,Dominican Republic,65231032303.2418,17393103000000.0
+617,Fearless (AMMA),Monte Alegre,2010,0.75,United States,2.75,Brazil,2208871646202.82,14964372000000.0
+618,Feitoria Cacao,Blue Mountain,2016,0.76,Portugal,3.0,Jamaica,14056908749.3505,204836597909.466
+620,Feitoria Cacao,Maya Mountain,2016,0.76,Portugal,2.75,Belize,1741100000.0,204836597909.466
+621,Felchlin,Grenada,2010,0.58,Switzerland,3.5,Grenada,771015888.888889,583782977866.405
+622,Felchlin,Elvesia P.,2006,0.74,Switzerland,3.0,Dominican Republic,35952845582.5029,430921192375.179
+623,Felchlin,Madagascar,2006,0.64,Switzerland,3.0,Madagascar,5515884348.54904,430921192375.179
+625,Felchlin,Arriba,2006,0.72,Switzerland,3.5,Ecuador,46802044000.0,430921192375.179
+626,Felchlin,Alto Beni,2006,0.68,Switzerland,4.0,Bolivia,11451869164.7112,430921192375.179
+628,Finca,Dominican Republic,2014,0.8,United States,3.0,Dominican Republic,65231032303.2418,17393103000000.0
+629,Finca,Dominican Republic,2014,0.7,United States,3.25,Dominican Republic,65231032303.2418,17393103000000.0
+630,Finca,Dominican Republic,2014,0.85,United States,2.5,Dominican Republic,65231032303.2418,17393103000000.0
+631,Forever Cacao,Rio Eni,2014,0.72,United Kingdom,2.75,Peru,201049665375.132,3022827781881.39
+634,Fossa,Akesson's E.,2016,0.7,Singapore,2.75,Madagascar,10001193420.1518,296975678610.206
+635,Fossa,Camino Verde P.,2016,0.75,Singapore,3.5,Ecuador,98613972000.0,296975678610.206
+636,Fossa,Kokoa Kamili Coop,2016,0.67,Singapore,3.75,Tanzania,47340071107.343,296975678610.206
+641,Frederic Blondeel,Costa Rica,2015,0.7,Belgium,3.5,Costa Rica,54840103850.265,455200045095.643
+642,Frederic Blondeel,Peru Brutus,2015,0.75,Belgium,3.5,Peru,189212096470.293,455200045095.643
+643,Frederic Blondeel,Vietnam,2015,0.8,Belgium,3.0,Vietnam,193241108709.536,455200045095.643
+644,Frederic Blondeel,Ghana,2014,0.6,Belgium,3.5,Ghana,38616536131.648,531075861047.287
+645,Frederic Blondeel,Madagascar,2014,0.65,Belgium,3.5,Madagascar,10673516672.6664,531075861047.287
+647,French Broad,Guatemala,2015,0.73,United States,3.5,Guatemala,63767597193.9175,18120714000000.0
+648,French Broad,San Andres,2014,0.8,United States,3.0,Costa Rica,50656002895.8763,17393103000000.0
+649,French Broad,Matagalpa,2014,0.68,United States,3.25,Nicaragua,11880438824.4494,17393103000000.0
+650,French Broad,Palo Blanco,2013,0.66,United States,3.5,Peru,201217661645.509,16691517000000.0
+651,French Broad,Tumbes Coop,2012,0.7,United States,2.5,Peru,192648999090.082,16155255000000.0
+652,French Broad,Palo Blanco,2012,0.61,United States,3.5,Peru,192648999090.082,16155255000000.0
+653,French Broad,Palo Blanco w/ panela,2012,0.81,United States,2.0,Peru,192648999090.082,16155255000000.0
+654,French Broad,Maranon Canyon,2011,0.7,United States,3.5,Peru,171761737046.585,15517926000000.0
+655,French Broad,La Red,2011,0.65,United States,3.5,Dominican Republic,57746684847.0898,15517926000000.0
+656,Fresco,Maranon,2014,0.7,United States,3.0,Peru,201049665375.132,17393103000000.0
+657,Fresco,Maranon,2014,0.7,United States,3.5,Peru,201049665375.132,17393103000000.0
+658,Fresco,Maranon,2014,0.7,United States,3.5,Peru,201049665375.132,17393103000000.0
+659,Fresco,Maranon,2014,0.7,United States,3.5,Peru,201049665375.132,17393103000000.0
+660,Fresco,Conacado,2013,0.72,United States,3.25,Dominican Republic,61965942056.6828,16691517000000.0
+661,Fresco,Conacado,2013,0.72,United States,3.75,Dominican Republic,61965942056.6828,16691517000000.0
+662,Fresco,San Martin,2013,0.7,United States,3.75,Peru,201217661645.509,16691517000000.0
+663,Fresco,Bellavista Coop,2013,0.7,United States,4.0,Peru,201217661645.509,16691517000000.0
+664,Fresco,Markham Valley,2012,0.69,United States,3.5,Papua New Guinea,21295834133.2309,16155255000000.0
+665,Fresco,Markham Valley,2012,0.69,United States,3.5,Papua New Guinea,21295834133.2309,16155255000000.0
+666,Fresco,Sambirano Valley,2012,0.74,United States,4.0,Madagascar,9919780071.28764,16155255000000.0
+667,Fresco,Markham Valley,2012,0.69,United States,4.0,Papua New Guinea,21295834133.2309,16155255000000.0
+668,Fresco,Markham Valley,2012,0.69,United States,3.0,Papua New Guinea,21295834133.2309,16155255000000.0
+669,Fresco,Ghana,2011,0.74,United States,2.75,Ghana,39566292432.8615,15517926000000.0
+670,Fresco,Jamaica,2011,0.7,United States,3.25,Jamaica,14439910353.0576,15517926000000.0
+671,Fresco,Conacado,2011,0.72,United States,3.5,Dominican Republic,57746684847.0898,15517926000000.0
+672,Fresco,Jamaica,2011,0.7,United States,3.5,Jamaica,14439910353.0576,15517926000000.0
+673,Fresco,Sambirano Valley,2011,0.74,United States,2.75,Madagascar,9892702357.56691,15517926000000.0
+674,Fresco,Conacado,2011,0.72,United States,3.25,Dominican Republic,57746684847.0898,15517926000000.0
+675,Fresco,Sambirano Valley,2011,0.74,United States,3.0,Madagascar,9892702357.56691,15517926000000.0
+678,Fresco,Jamaica,2009,0.8,United States,2.75,Jamaica,12038829246.2425,14418739000000.0
+679,Fresco,Jamaica,2009,0.7,United States,3.0,Jamaica,12038829246.2425,14418739000000.0
+680,Fresco,Jamaica,2009,0.7,United States,3.25,Jamaica,12038829246.2425,14418739000000.0
+682,Friis Holm,Rugoso,2016,0.7,Denmark,3.5,Nicaragua,13230844686.858,306899653409.601
+683,Friis Holm (Bonnat),La Dalia,2015,0.6,Denmark,3.0,Nicaragua,12747741539.7259,301298464861.385
+684,Friis Holm (Bonnat),La Dalia,2015,0.85,Denmark,3.25,Nicaragua,12747741539.7259,301298464861.385
+685,Friis Holm (Bonnat),La Dalia,2014,0.7,Denmark,3.5,Nicaragua,11880438824.4494,352993633221.281
+686,Friis Holm (Bonnat),Barba,2013,0.7,Denmark,3.25,Nicaragua,10982972256.3787,343584385594.132
+687,Friis Holm (Bonnat),Medagla,2013,0.7,Denmark,3.5,Nicaragua,10982972256.3787,343584385594.132
+688,Friis Holm (Bonnat),Chuno,2012,0.7,Denmark,3.25,Nicaragua,10532001129.67,327148899962.146
+689,Friis Holm (Bonnat),Red Mayan,2012,0.7,Denmark,3.25,Honduras,18528506894.0586,327148899962.146
+690,Friis Holm (Bonnat),Chuno,2012,0.7,Denmark,3.25,Nicaragua,10532001129.67,327148899962.146
+691,Friis Holm (Bonnat),Rugoso,2012,0.7,Denmark,3.75,Nicaragua,10532001129.67,327148899962.146
+692,Friis Holm (Bonnat),Johe,2011,0.7,Denmark,3.25,Nicaragua,9774316692.15985,344003209695.606
+693,Friis Holm (Bonnat),Chuno,2011,0.7,Denmark,3.5,Nicaragua,9774316692.15985,344003209695.606
+694,Friis Holm (Bonnat),Nicaliso,2011,0.7,Denmark,3.5,Nicaragua,9774316692.15985,344003209695.606
+695,Fruition,Wild Bolivian,2016,0.74,United States,3.75,Bolivia,33806395513.7482,18624475000000.0
+696,Fruition,Coto Brus,2016,0.74,United States,4.0,Costa Rica,57435507212.256,18624475000000.0
+698,Fruition,Maranon,2014,0.76,United States,3.0,Peru,201049665375.132,17393103000000.0
+699,Fruition,La Red,2013,0.7,United States,3.75,Dominican Republic,61965942056.6828,16691517000000.0
+700,Fruition,Camino Verde,2013,0.75,United States,3.0,Ecuador,95129659000.0,16691517000000.0
+701,Fruition,Peru,2012,0.7,United States,2.5,Peru,192648999090.082,16155255000000.0
+702,Fruition,Signature Blend,2011,0.66,United States,3.25,Costa Rica,42262697840.385,15517926000000.0
+703,Fruition,Costa Rica,2011,0.7,United States,3.0,Costa Rica,42262697840.385,15517926000000.0
+705,Georgia Ramon,Akesson P.,2015,0.65,Germany,3.25,Madagascar,9744243420.48073,3375611100742.22
+706,Georgia Ramon,ABOCFA Coop,2015,0.7,Germany,4.0,Ghana,37543361203.5609,3375611100742.22
+707,Georgia Ramon,Conacado Coop,2015,0.7,Germany,3.5,Dominican Republic,68102618092.1031,3375611100742.22
+708,Georgia Ramon,Conacado Coop,2015,0.8,Germany,3.5,Dominican Republic,68102618092.1031,3375611100742.22
+709,Georgia Ramon,Akesson P.,2015,0.75,Germany,3.5,Madagascar,9744243420.48073,3375611100742.22
+710,Glennmade,Toledo District,2016,0.7,United States,3.5,Belize,1741100000.0,18624475000000.0
+711,Glennmade,Bahia,2015,0.66,United States,3.0,Brazil,1803652649613.75,18120714000000.0
+712,Goodnow Farms,Almendra Blanca,2016,0.77,United States,2.75,Mexico,1046922702460.87,18624475000000.0
+713,Goodnow Farms,El Carmen,2016,0.77,United States,3.25,Nicaragua,13230844686.858,18624475000000.0
+714,Goodnow Farms,Asochivite,2016,0.77,United States,3.25,Guatemala,68763255963.8943,18624475000000.0
+715,Grand Place,Ben Tre,2011,0.72,Vietnam,3.0,Vietnam,135539438559.709,135539438559.709
+716,Green Bean to Bar,Madagascar,2016,0.7,Japan,3.5,Madagascar,10001193420.1518,4940158776617.16
+717,Grenada Chocolate Co.,Grenada,2010,0.82,Grenada,3.25,Grenada,771015888.888889,771015888.888889
+718,Grenada Chocolate Co.,Grenada,2009,0.6,Grenada,2.75,Grenada,771278111.111111,771278111.111111
+719,Grenada Chocolate Co.,Grenada,2008,0.71,Grenada,2.5,Grenada,825977888.888889,825977888.888889
+720,Guido Castagna,Arriba,2009,0.64,Italy,3.0,Ecuador,62519686000.0,2185160183384.27
+721,Guido Castagna,Ghana,2009,0.64,Italy,3.0,Ghana,25977847813.7422,2185160183384.27
+725,Guittard,Haiti,2013,0.65,United States,2.75,Haiti,8452509315.87722,16691517000000.0
+726,Guittard,Nicaragua,2013,0.65,United States,2.75,Nicaragua,10982972256.3787,16691517000000.0
+727,Guittard,Jamaica,2013,0.65,United States,3.25,Jamaica,14274983015.9485,16691517000000.0
+728,Guittard,Ecuador,2013,0.65,United States,3.5,Ecuador,95129659000.0,16691517000000.0
+731,Guittard,Machu Pichu,2008,0.65,United States,3.0,Peru,120550599815.441,14718582000000.0
+733,Guittard,Chucuri,2006,0.65,United States,3.0,Colombia,162590145579.958,13855888000000.0
+735,Guittard,Sambirano,2006,0.65,United States,3.5,Madagascar,5515884348.54904,13855888000000.0
+736,Guittard,Los Rios,2006,0.65,United States,3.5,Ecuador,46802044000.0,13855888000000.0
+737,Habitual,Papua New Guinea,2014,0.8,Canada,2.75,Papua New Guinea,23003575201.1051,1792883225804.38
+738,Habitual,Dominican Republic,2014,0.75,Canada,3.25,Dominican Republic,65231032303.2418,1792883225804.38
+740,Hachez,Arriba,2007,0.77,Germany,2.5,Ecuador,51007777000.0,3439953462907.2
+741,Hacienda El Castillo,Don Homero- Cerecita Valley,2014,0.55,Ecuador,2.75,Ecuador,101726331000.0,101726331000.0
+742,Hacienda El Castillo,Don Homero- Cerecita Valley,2014,0.7,Ecuador,3.0,Ecuador,101726331000.0,101726331000.0
+744,Harper Macaw,Vale do Juliana,2016,0.85,United States,3.25,Brazil,1796186586414.45,18624475000000.0
+745,Harper Macaw,Brazil Blend,2015,0.67,United States,3.0,Brazil,1803652649613.75,18120714000000.0
+746,Harper Macaw,Tome Acu E.,2015,0.77,United States,3.5,Brazil,1803652649613.75,18120714000000.0
+747,Harper Macaw,Vale do Juliana E.,2015,0.74,United States,3.5,Brazil,1803652649613.75,18120714000000.0
+748,Heilemann,Peru,2016,0.64,Germany,2.75,Peru,192207342004.681,3477796274496.8
+749,Heirloom Cacao Preservation (Brasstown),Maya Mtn,2016,0.7,United States,3.25,Belize,1741100000.0,18624475000000.0
+750,Heirloom Cacao Preservation (Fruition),Cota Brus,2016,0.74,United States,3.5,Costa Rica,57435507212.256,18624475000000.0
+751,Heirloom Cacao Preservation (Guittard),Alto Beni,2014,0.67,United States,3.5,Bolivia,32996187988.4226,17393103000000.0
+752,Heirloom Cacao Preservation (Guittard),Wild Beni,2014,0.67,United States,3.0,Bolivia,32996187988.4226,17393103000000.0
+753,Heirloom Cacao Preservation (Guittard),Los Rios,2014,0.67,United States,3.75,Ecuador,101726331000.0,17393103000000.0
+756,Heirloom Cacao Preservation (Millcreek),Los Rios,2016,0.7,United States,3.5,Ecuador,98613972000.0,18624475000000.0
+757,Heirloom Cacao Preservation (Mindo),Pinchincha,2016,0.77,United States,3.5,Ecuador,98613972000.0,18624475000000.0
+758,Heirloom Cacao Preservation (Zokoko),Alto Beni,2016,0.68,United States,3.75,Bolivia,33806395513.7482,18624475000000.0
+759,Heirloom Cacao Preservation (Zokoko),Wild Beni,2016,0.72,United States,4.0,Bolivia,33806395513.7482,18624475000000.0
+760,hello cocoa,Uganda,2015,0.57,United States,2.75,Uganda,27059447774.6626,18120714000000.0
+762,hexx,Tanzania,2015,0.7,United States,2.75,Tanzania,45628320606.0487,18120714000000.0
+763,hexx,Madagascar,2015,0.74,United States,3.0,Madagascar,9744243420.48073,18120714000000.0
+765,hexx,Ecuador,2015,0.73,United States,3.25,Ecuador,99290381000.0,18120714000000.0
+766,hexx,Peru,2015,0.7,United States,3.25,Peru,189212096470.293,18120714000000.0
+767,Hogarth,Akesson's Estate,2016,0.7,New Zealand,2.75,Madagascar,10001193420.1518,184969146624.47
+769,Hogarth,Conacado,2016,0.75,New Zealand,3.25,Dominican Republic,71583553487.5646,184969146624.47
+770,Hogarth,Gran Blanco,2016,0.66,New Zealand,3.5,Peru,192207342004.681,184969146624.47
+771,Hoja Verde (Tulicorp),Arriba,2009,0.8,Ecuador,2.0,Ecuador,62519686000.0,62519686000.0
+772,Hoja Verde (Tulicorp),Manabi,2009,0.8,Ecuador,2.5,Ecuador,62519686000.0,62519686000.0
+773,Hoja Verde (Tulicorp),Arriba,2009,0.72,Ecuador,3.0,Ecuador,62519686000.0,62519686000.0
+774,Hoja Verde (Tulicorp),Arriba,2009,0.58,Ecuador,3.25,Ecuador,62519686000.0,62519686000.0
+775,Hoja Verde (Tulicorp),Manabi,2009,0.58,Ecuador,3.5,Ecuador,62519686000.0,62519686000.0
+776,Holy Cacao,Maranon,2016,0.7,Israel,2.75,Peru,192207342004.681,317744784695.1
+777,Holy Cacao,Camino Verde P.,2015,0.7,Israel,3.5,Ecuador,99290381000.0,299096404728.826
+778,Holy Cacao,Sambirano,2015,0.7,Israel,3.5,Madagascar,9744243420.48073,299096404728.826
+782,Holy Cacao,Hispaniola,2009,0.7,Israel,2.75,Dominican Republic,48376555305.6902,207419370241.335
+783,Holy Cacao,San Martin,2009,0.7,Israel,3.5,Peru,120822986521.479,207419370241.335
+784,Holy Cacao,Hispaniola w/ nibs,2009,0.75,Israel,3.75,Dominican Republic,48376555305.6902,207419370241.335
+785,Honest,Ecuador,2014,0.72,South Africa,2.5,Ecuador,101726331000.0,351119102947.143
+786,Hotel Chocolat,Pepiniere,2015,0.7,United Kingdom,2.75,St. Lucia,1649142629.62963,2885570309160.86
+787,Hotel Chocolat,Marcial,2013,0.7,United Kingdom,4.0,St. Lucia,1489928888.88889,2739818680930.19
+788,Hotel Chocolat,Island Growers,2013,0.1,United Kingdom,1.75,St. Lucia,1489928888.88889,2739818680930.19
+790,Hotel Chocolat (Coppeneur),Mekong Delta & Dong Nai,2013,0.8,United Kingdom,3.5,Vietnam,171222025117.381,2739818680930.19
+791,Hotel Chocolat (Coppeneur),Los Rios,2013,0.9,United Kingdom,3.0,Ecuador,95129659000.0,2739818680930.19
+792,Hotel Chocolat (Coppeneur),Somia Plantation,2013,0.72,United Kingdom,3.0,Madagascar,10601690871.7611,2739818680930.19
+793,Hotel Chocolat (Coppeneur),Los Rios,2013,0.82,United Kingdom,3.5,Ecuador,95129659000.0,2739818680930.19
+794,Hotel Chocolat (Coppeneur),Chanchamayo,2013,0.1,United Kingdom,2.75,Peru,201217661645.509,2739818680930.19
+795,Hotel Chocolat (Coppeneur),Los Rios,2013,0.1,United Kingdom,2.5,Ecuador,95129659000.0,2739818680930.19
+796,Hotel Chocolat (Coppeneur),Conacado,2013,0.1,United Kingdom,2.75,Dominican Republic,61965942056.6828,2739818680930.19
+797,Hotel Chocolat (Coppeneur),Sambirano,2012,0.66,United Kingdom,3.5,Madagascar,9919780071.28764,2662085168498.93
+798,Hotel Chocolat (Coppeneur),Los Rios,2011,0.8,United Kingdom,3.0,Ecuador,79276664000.0,2619700404733.37
+799,Hotel Chocolat (Coppeneur),Island Growers,2011,0.65,United Kingdom,3.0,St. Lucia,1437684814.81481,2619700404733.37
+800,Hotel Chocolat (Coppeneur),Island Growers,2011,0.65,United Kingdom,3.25,St. Lucia,1437684814.81481,2619700404733.37
+801,Hotel Chocolat (Coppeneur),Ecuador,2010,0.7,United Kingdom,2.75,Ecuador,69555367000.0,2441173394729.62
+802,Hotel Chocolat (Coppeneur),Santo Domingo,2010,0.7,United Kingdom,3.0,Dominican Republic,53954579003.5277,2441173394729.62
+804,Hotel Chocolat (Coppeneur),St. Lucia,2008,0.72,United Kingdom,3.0,St. Lucia,1282215407.40741,2890564338235.29
+805,Hotel Chocolat (Coppeneur),Uganda,2008,0.8,United Kingdom,2.5,Uganda,14239026629.639,2890564338235.29
+806,Hotel Chocolat (Coppeneur),Tanzania,2008,0.75,United Kingdom,2.75,Tanzania,27368386358.131,2890564338235.29
+808,Hummingbird,Lam Dong,2015,0.7,Canada,3.5,Vietnam,193241108709.536,1552807652015.37
+809,Hummingbird,Bolivia,2014,0.7,Canada,3.0,Bolivia,32996187988.4226,1792883225804.38
+810,Hummingbird,Bolivia,2014,0.7,Canada,3.0,Bolivia,32996187988.4226,1792883225804.38
+811,Hummingbird,Momotombo,2014,0.7,Canada,3.0,Nicaragua,11880438824.4494,1792883225804.38
+812,Hummingbird,Hispaniola,2014,0.7,Canada,3.75,Dominican Republic,65231032303.2418,1792883225804.38
+813,Hummingbird,Zorzal Reserva w/ Charles Kerchner,2014,0.7,Canada,3.5,Dominican Republic,65231032303.2418,1792883225804.38
+826,Indah,India (south),2016,0.61,India,2.5,India,2263792499341.01,2263792499341.01
+827,Indaphoria,La Red,2012,0.7,United States,3.25,Dominican Republic,60613645121.3529,16155255000000.0
+828,Indaphoria,Conacado,2012,0.7,United States,2.75,Dominican Republic,60613645121.3529,16155255000000.0
+829,Indi,Honduras,2014,0.77,United States,3.0,Honduras,19756494434.7031,17393103000000.0
+832,Isidro,Madagascar,2014,0.72,United States,3.5,Madagascar,10673516672.6664,17393103000000.0
+833,Isidro,Peru,2014,0.72,United States,2.25,Peru,201049665375.132,17393103000000.0
+834,Isidro,Belize,2014,0.72,United States,3.25,Belize,1706497950.0,17393103000000.0
+835,Isidro,Dominican Republic,2014,0.72,United States,3.25,Dominican Republic,65231032303.2418,17393103000000.0
+836,Izard,Maya Mountain,2015,0.7,United States,3.5,Belize,1742545900.0,18120714000000.0
+837,Izard,Elvesia P.,2015,0.7,United States,2.75,Dominican Republic,68102618092.1031,18120714000000.0
+838,Jacque Torres,Trinatario Treasure,2006,0.71,United States,2.0,Ghana,20409257610.4746,13855888000000.0
+839,Jordis,Madagascar,2015,0.63,Czech Republic,2.75,Madagascar,9744243420.48073,186829940545.759
+840,Just Good Chocolate,Belize,2014,0.7,United States,3.5,Belize,1706497950.0,17393103000000.0
+841,Just Good Chocolate,Madagascar,2014,0.7,United States,3.5,Madagascar,10673516672.6664,17393103000000.0
+842,Just Good Chocolate,Peru,2014,0.7,United States,4.0,Peru,201049665375.132,17393103000000.0
+847,Kakao,Peru,2012,0.64,Germany,2.5,Peru,192648999090.082,3543983909148.01
+848,Kakao,Vanuatu,2009,0.65,Germany,3.75,Vanuatu,610066628.693058,3418005001389.27
+849,Kallari (Ecuatoriana),Sisa 36hr/ W. F. blend prototype,2008,0.7,Ecuador,3.0,Ecuador,61762635000.0,61762635000.0
+850,Kallari (Ecuatoriana),Sisa's Secret/ original micro,2008,0.7,Ecuador,3.5,Ecuador,61762635000.0,61762635000.0
+851,Kallari (Ecuatoriana),Roberto,2008,0.75,Ecuador,2.75,Ecuador,61762635000.0,61762635000.0
+852,Kallari (Ecuatoriana),Diego/ original micro,2008,0.85,Ecuador,2.5,Ecuador,61762635000.0,61762635000.0
+853,Kallari (Ecuatoriana),Diego 48hr/ W.F. blend prototype,2008,0.85,Ecuador,2.75,Ecuador,61762635000.0,61762635000.0
+854,Kallari (Ecuatoriana),Diego 60hr/ W.F. blend prototype,2008,0.85,Ecuador,3.0,Ecuador,61762635000.0,61762635000.0
+855,Kallari (Ecuatoriana),Cacao Nacional W.F.,2008,0.75,Ecuador,2.5,Ecuador,61762635000.0,61762635000.0
+856,Kallari (Ecuatoriana),Cacao Nacional W.F.,2008,0.85,Ecuador,3.0,Ecuador,61762635000.0,61762635000.0
+857,Kaoka (Cemoi),Ecuador,2009,0.8,France,2.75,Ecuador,62519686000.0,2693827452070.02
+858,Kerchner,La Red,2013,0.7,United States,3.75,Dominican Republic,61965942056.6828,16691517000000.0
+859,Ki' Xocolatl,Dark,2009,0.72,Mexico,2.0,Mexico,894948748436.748,894948748436.748
+860,Kiskadee,La Red,2014,0.6,United States,3.0,Dominican Republic,65231032303.2418,17393103000000.0
+861,Kto,San Martin,2014,0.72,United States,2.5,Peru,201049665375.132,17393103000000.0
+863,Kto,Belize,2014,0.72,United States,3.0,Belize,1706497950.0,17393103000000.0
+864,Kto,Sambirano Valley,2014,0.72,United States,3.25,Madagascar,10673516672.6664,17393103000000.0
+865,Kto,Belize,2014,0.9,United States,3.25,Belize,1706497950.0,17393103000000.0
+866,Kto,Elvesia,2014,0.72,United States,3.25,Dominican Republic,65231032303.2418,17393103000000.0
+867,Kto,ROIG,2014,0.72,United States,3.25,Dominican Republic,65231032303.2418,17393103000000.0
+868,K'ul,Kafupbo,2016,0.7,United States,3.25,Haiti,8022638721.92013,18624475000000.0
+869,K'ul,Maranon,2016,0.7,United States,2.75,Peru,192207342004.681,18624475000000.0
+870,K'ul,Los Rios,2016,0.7,United States,3.75,Ecuador,98613972000.0,18624475000000.0
+871,K'ul,Bahia,2016,0.7,United States,3.75,Brazil,1796186586414.45,18624475000000.0
+872,Kyya,Uganda,2014,0.725,United States,2.5,Uganda,27295207927.5612,17393103000000.0
+873,Kyya,Hispaniola,2014,0.725,United States,3.0,Dominican Republic,65231032303.2418,17393103000000.0
+874,Kyya,Ecuador,2014,0.725,United States,2.5,Ecuador,101726331000.0,17393103000000.0
+875,Kyya,Madagascar,2014,0.725,United States,3.0,Madagascar,10673516672.6664,17393103000000.0
+876,L.A. Burdick (Felchlin),Peru,2012,0.74,United States,3.25,Peru,192648999090.082,16155255000000.0
+877,L.A. Burdick (Felchlin),Brazil,2012,0.7,United States,4.0,Brazil,2465188674415.03,16155255000000.0
+879,L.A. Burdick (Felchlin),Quito,2011,0.74,United States,3.75,Ecuador,79276664000.0,15517926000000.0
+880,L.A. Burdick (Felchlin),Grenada,2010,0.75,United States,3.25,Grenada,771015888.888889,14964372000000.0
+881,L.A. Burdick (Felchlin),Dominican Republic,2010,0.74,United States,3.75,Dominican Republic,53954579003.5277,14964372000000.0
+883,L.A. Burdick (Felchlin),Madagascar,2009,0.64,United States,3.5,Madagascar,8550363974.79243,14418739000000.0
+884,L.A. Burdick (Felchlin),Bolivian,2009,0.68,United States,3.0,Bolivia,17339992165.2422,14418739000000.0
+885,La Chocolaterie Nanairo,Lumas,2016,0.7,Japan,2.25,Peru,192207342004.681,4940158776617.16
+886,La Chocolaterie Nanairo,Lumas,2016,0.7,Japan,2.5,Peru,192207342004.681,4940158776617.16
+887,La Chocolaterie Nanairo,Tumbes,2016,0.7,Japan,3.0,Peru,192207342004.681,4940158776617.16
+888,La Chocolaterie Nanairo,Belize,2016,0.7,Japan,3.0,Belize,1741100000.0,4940158776617.16
+890,La Maison du Chocolat (Valrhona),Tobago,2013,0.6,France,3.25,Trinidad and Tobago,26436159314.5624,2808511203185.39
+891,La Maison du Chocolat (Valrhona),Acarigua,2013,0.56,France,3.25,Ecuador,95129659000.0,2808511203185.39
+892,La Maison du Chocolat (Valrhona),Loma Sotavento,2012,0.66,France,3.5,Dominican Republic,60613645121.3529,2681416108537.39
+893,La Maison du Chocolat (Valrhona),Grenada,2011,0.68,France,3.5,Grenada,778648666.666667,2862680142625.14
+894,La Maison du Chocolat (Valrhona),Akosombo,2009,0.68,France,3.25,Ghana,25977847813.7422,2693827452070.02
+897,La Oroquidea,Peruvian Amazon,2011,0.72,Peru,2.5,Peru,171761737046.585,171761737046.585
+898,La Pepa de Oro,Vinces,2011,0.6,Ecuador,3.25,Ecuador,79276664000.0,79276664000.0
+899,Laia aka Chat-Noir,Madagascar,2015,0.75,France,2.75,Madagascar,9744243420.48073,2433562015516.21
+900,Laia aka Chat-Noir,Vietnam,2015,0.75,France,2.75,Vietnam,193241108709.536,2433562015516.21
+901,Laia aka Chat-Noir,Cuba,2015,0.75,France,3.0,Cuba,87132800000.0,2433562015516.21
+902,Laia aka Chat-Noir,Peru,2015,0.75,France,3.25,Peru,189212096470.293,2433562015516.21
+905,Laia aka Chat-Noir,Bahia,2015,0.75,France,3.25,Brazil,1803652649613.75,2433562015516.21
+906,Laia aka Chat-Noir,Lam Dong,2015,0.75,France,3.75,Vietnam,193241108709.536,2433562015516.21
+907,Laia aka Chat-Noir,Cuba,2014,0.7,France,2.75,Cuba,80656100000.0,2849305322684.76
+908,Laia aka Chat-Noir,Trinidad-Tobago,2014,0.68,France,2.75,Trinidad and Tobago,26175952941.9107,2849305322684.76
+909,Lajedo do Ouro,Catongo,2012,0.7,Brazil,3.5,Brazil,2465188674415.03,2465188674415.03
+910,Lake Champlain (Callebaut),Tanzania,2009,0.75,United States,2.5,Tanzania,28573777052.4542,14418739000000.0
+911,L'Amourette,Rugoso,2016,0.8,United States,3.5,Nicaragua,13230844686.858,18624475000000.0
+914,L'Amourette,Blend,2012,0.72,United States,3.0,Peru,192648999090.082,16155255000000.0
+917,Letterpress,Liberia,2016,0.7,United States,3.25,Liberia,2101000000.0,18624475000000.0
+918,Letterpress,Beniamo,2015,0.7,United States,3.25,Bolivia,33000198263.3864,18120714000000.0
+920,Letterpress,San Andres,2015,0.7,United States,3.0,Costa Rica,54840103850.265,18120714000000.0
+921,Letterpress,La Red,2015,0.7,United States,3.25,Dominican Republic,68102618092.1031,18120714000000.0
+922,Letterpress,Kokoa Kamili,2015,0.7,United States,3.5,Tanzania,45628320606.0487,18120714000000.0
+923,Letterpress,Maranura,2014,0.7,United States,3.5,Peru,201049665375.132,17393103000000.0
+924,Levy,Sambirano,2014,0.71,Finland,3.5,Madagascar,10673516672.6664,272609288689.575
+925,Lilla,Madagascar,2016,0.7,Finland,3.0,Madagascar,10001193420.1518,238502900311.9
+926,Lillie Belle,Perfect Illusion,2012,0.65,United States,3.5,Peru,192648999090.082,16155255000000.0
+927,Lillie Belle,Bolivia,2012,0.68,United States,3.5,Bolivia,27084497539.7974,16155255000000.0
+928,Lillie Belle,La Selva,2012,0.68,United States,3.75,Peru,192648999090.082,16155255000000.0
+930,Lillie Belle,The Other One,2012,0.74,United States,3.0,Dominican Republic,60613645121.3529,16155255000000.0
+931,Lillie Belle,Wild Thing,2012,0.68,United States,3.5,Bolivia,27084497539.7974,16155255000000.0
+932,Loiza,Puerto Rico,2013,0.65,Puerto Rico,2.5,Puerto Rico,103134778000.0,103134778000.0
+939,Love Bar,Nicaragua,2015,0.75,United States,2.0,Nicaragua,12747741539.7259,18120714000000.0
+940,Luker,Selva,2010,0.46,Colombia,2.75,Colombia,287018179193.923,287018179193.923
+941,Luker,Macondo,2010,0.6,Colombia,3.0,Colombia,287018179193.923,287018179193.923
+942,Luker,Misterio,2010,0.58,Colombia,3.0,Colombia,287018179193.923,287018179193.923
+943,Luker,Santander,2010,0.65,Colombia,3.5,Colombia,287018179193.923,287018179193.923
+944,Machu Picchu Trading Co.,Peru,2011,0.7,Peru,1.5,Peru,171761737046.585,171761737046.585
+945,Machu Picchu Trading Co.,Peru,2010,0.55,Peru,2.25,Peru,147528937028.778,147528937028.778
+946,Madecasse (Cinagra),Madagascar,2008,0.67,Madagascar,3.5,Madagascar,9413002920.97008,9413002920.97008
+947,Madecasse (Cinagra),Madagascar,2008,0.7,Madagascar,3.75,Madagascar,9413002920.97008,9413002920.97008
+948,Madecasse (Cinagra),Madagascar,2008,0.63,Madagascar,4.0,Madagascar,9413002920.97008,9413002920.97008
+949,Madecasse (Cinagra),Madagascar,2008,0.75,Madagascar,3.5,Madagascar,9413002920.97008,9413002920.97008
+951,Madre,Puerto Rico,2013,0.7,United States,2.75,Puerto Rico,103134778000.0,16691517000000.0
+952,Madre,Brazil,2013,0.7,United States,3.5,Brazil,2472806919901.67,16691517000000.0
+954,Madre,Xocunusco,2013,0.7,United States,2.75,Mexico,1261981728468.52,16691517000000.0
+958,Madre,Dominican,2011,0.7,United States,2.5,Dominican Republic,57746684847.0898,15517926000000.0
+959,Madre,Upala,2011,0.7,United States,2.75,Costa Rica,42262697840.385,15517926000000.0
+960,Madre,Chiapas,2010,0.72,United States,2.75,Mexico,1051128603513.77,14964372000000.0
+961,Maglio,Africa,2008,0.75,Italy,2.0,Tanzania,27368386358.131,2390729163615.06
+962,Maglio,Ecuador,2008,0.7,Italy,3.0,Ecuador,61762635000.0,2390729163615.06
+963,Maglio,Cuba,2008,0.7,Italy,3.25,Cuba,60806300000.0,2390729163615.06
+964,Maglio,Santo Domingo,2008,0.7,Italy,3.75,Dominican Republic,48288967303.4896,2390729163615.06
+965,Majani,Ecuador,2010,0.7,Italy,2.0,Ecuador,69555367000.0,2125058244242.92
+966,Malagasy (Chocolaterie Robert),Sambirano 2006,2007,0.75,Madagascar,2.75,Madagascar,7342923489.09616,7342923489.09616
+967,Malagasy (Chocolaterie Robert),Mora Mora 2006,2007,0.73,Madagascar,3.5,Madagascar,7342923489.09616,7342923489.09616
+968,Malagos,Davao,2013,0.65,Philippines,3.5,Philippines,271836123723.678,271836123723.678
+972,Mana,Ecuador,2015,0.74,United States,2.5,Ecuador,99290381000.0,18120714000000.0
+973,Mana,Peru,2014,0.74,United States,2.5,Peru,201049665375.132,17393103000000.0
+975,Mana,Conacado,2012,0.74,United States,3.75,Dominican Republic,60613645121.3529,16155255000000.0
+976,Manifesto Cacao,Colombia,2014,0.7,Colombia,2.75,Colombia,378195707612.393,378195707612.393
+977,Manoa,Markham Valley,2015,0.72,United States,3.5,Papua New Guinea,21060901603.8145,18120714000000.0
+978,Manoa,Coto Brus,2015,0.72,United States,3.75,Costa Rica,54840103850.265,18120714000000.0
+980,Manoa,Liberia,2012,0.72,United States,3.25,Liberia,1735500000.0,16155255000000.0
+982,Manoa,Piura,2012,0.72,United States,3.0,Peru,192648999090.082,16155255000000.0
+984,Manufaktura Czekolady,Johe,2016,0.7,Poland,3.75,Nicaragua,13230844686.858,471364408713.956
+985,Manufaktura Czekolady,Peru,2016,0.7,Poland,3.5,Peru,192207342004.681,471364408713.956
+987,Manufaktura Czekolady,Kolumbia,2014,0.85,Poland,3.5,Colombia,378195707612.393,545075908845.995
+988,Manufaktura Czekolady,Grand Cru Dominican Republic,2012,0.7,Poland,3.25,Dominican Republic,60613645121.3529,500284003684.372
+989,Manufaktura Czekolady,Grand Cru Ghana,2012,0.7,Poland,3.5,Ghana,41939728978.7281,500284003684.372
+990,Manufaktura Czekolady,Grand Cru Ecuador,2012,0.7,Poland,3.25,Ecuador,87924544000.0,500284003684.372
+991,Map Chocolate,Ben Tre,2016,0.75,United States,3.25,Vietnam,205276172134.901,18624475000000.0
+992,Map Chocolate,ROIG,2015,0.7,United States,3.5,Dominican Republic,68102618092.1031,18120714000000.0
+993,Map Chocolate,Maranon,2015,0.62,United States,3.5,Peru,189212096470.293,18120714000000.0
+994,Map Chocolate,Ecuador,2015,0.7,United States,3.5,Ecuador,99290381000.0,18120714000000.0
+996,Map Chocolate,A case of the Xerces Blues,2015,0.7,United States,3.5,Nicaragua,12747741539.7259,18120714000000.0
+997,Map Chocolate,Tumbes,2015,0.68,United States,3.5,Peru,189212096470.293,18120714000000.0
+998,Map Chocolate,Colombia,2015,0.75,United States,2.75,Colombia,291519596338.693,18120714000000.0
+999,Map Chocolate,Kakoa Kamili,2015,0.72,United States,3.0,Tanzania,45628320606.0487,18120714000000.0
+1000,Map Chocolate,Le Chocolat Chaud,2015,0.78,United States,3.5,Honduras,20844284855.0025,18120714000000.0
+1001,Marana,Piura,2016,0.7,Peru,3.0,Peru,192207342004.681,192207342004.681
+1002,Marana,Cusco,2016,0.7,Peru,2.75,Peru,192207342004.681,192207342004.681
+1003,Marana,San Martin,2016,0.7,Peru,3.0,Peru,192207342004.681,192207342004.681
+1004,Marou,Tan Phu Dong Island,2015,0.85,Vietnam,3.25,Vietnam,193241108709.536,193241108709.536
+1005,Marou,Ben Tre,2015,0.68,Vietnam,3.5,Vietnam,193241108709.536,193241108709.536
+1006,Marou,Dak Lak,2015,0.7,Vietnam,3.75,Vietnam,193241108709.536,193241108709.536
+1007,Marou,Tan Phu Dong,2013,0.75,Vietnam,3.5,Vietnam,171222025117.381,171222025117.381
+1008,Marou,Ba Ria,2012,0.76,Vietnam,3.5,Vietnam,155820001920.492,155820001920.492
+1009,Marou,Dong Nai,2012,0.72,Vietnam,3.5,Vietnam,155820001920.492,155820001920.492
+1010,Marou,Tien Giang,2012,0.7,Vietnam,3.5,Vietnam,155820001920.492,155820001920.492
+1011,Marou,Ben Tre,2012,0.78,Vietnam,3.5,Vietnam,155820001920.492,155820001920.492
+1012,Marou,Tien Giang,2012,0.8,Vietnam,3.0,Vietnam,155820001920.492,155820001920.492
+1013,Marou,Lam Dong,2012,0.74,Vietnam,3.5,Vietnam,155820001920.492,155820001920.492
+1014,Mars,Matina 1-6,2010,0.65,United States,3.0,Costa Rica,37268635287.0856,14964372000000.0
+1016,Mars,Nigeria,2010,0.65,United States,3.25,Nigeria,369062464570.387,14964372000000.0
+1017,Mars,Ghana,2010,0.65,United States,3.5,Ghana,32174772955.9748,14964372000000.0
+1018,Marsatta,Dominican Republic,2013,0.74,United States,2.25,Dominican Republic,61965942056.6828,16691517000000.0
+1019,Marsatta,Dominican Republic,2013,0.89,United States,2.5,Dominican Republic,61965942056.6828,16691517000000.0
+1020,Martin Mayer,Alto Beni,2016,0.76,Austria,2.75,Bolivia,33806395513.7482,390799991147.468
+1021,Martin Mayer,Pisa,2016,0.82,Austria,3.0,Haiti,8022638721.92013,390799991147.468
+1022,Martin Mayer,Tumaco,2016,0.74,Austria,3.25,Colombia,282462551366.878,390799991147.468
+1023,Mast Brothers,Guatemala,2015,0.76,United States,3.0,Guatemala,63767597193.9175,18120714000000.0
+1024,Mast Brothers,Tanzania,2015,0.74,United States,3.25,Tanzania,45628320606.0487,18120714000000.0
+1025,Mast Brothers,French Laundry 20th Anniversary,2014,0.75,United States,3.75,Peru,201049665375.132,17393103000000.0
+1026,Mast Brothers,Shake Shack,2012,0.73,United States,3.5,Peru,192648999090.082,16155255000000.0
+1031,Mast Brothers,Moho River,2011,0.7,United States,3.5,Belize,1486712300.0,15517926000000.0
+1032,Mast Brothers,Papua New Guinea,2011,0.71,United States,2.75,Papua New Guinea,17984816533.1084,15517926000000.0
+1033,Mast Brothers,San Martin,2011,0.75,United States,3.0,Peru,171761737046.585,15517926000000.0
+1034,Mast Brothers,Conacado,2011,0.73,United States,3.25,Dominican Republic,57746684847.0898,15517926000000.0
+1035,Mast Brothers,La Red de Guanconejo,2011,0.74,United States,3.75,Dominican Republic,57746684847.0898,15517926000000.0
+1038,Mast Brothers,Dominican Republic,2010,0.7,United States,3.25,Dominican Republic,53954579003.5277,14964372000000.0
+1039,Matale,Malekula P.,2013,0.72,Australia,3.5,Vanuatu,801787555.861121,1567178619062.28
+1040,Matale,Somia,2013,0.68,Australia,4.0,Madagascar,10601690871.7611,1567178619062.28
+1041,Matale,Kulili P.,2013,0.74,Australia,4.0,Papua New Guinea,21261305413.2323,1567178619062.28
+1043,Maverick,Maya Mountain,2014,0.7,United States,3.25,Belize,1706497950.0,17393103000000.0
+1044,Maverick,Elvesia,2014,0.7,United States,3.25,Dominican Republic,65231032303.2418,17393103000000.0
+1045,Maverick,Tumbes,2014,0.82,United States,3.25,Peru,201049665375.132,17393103000000.0
+1046,Maverick,Morropon,2014,0.63,United States,3.5,Peru,201049665375.132,17393103000000.0
+1047,Mayacama,Hispaniola,2016,0.72,United States,3.0,Dominican Republic,71583553487.5646,18624475000000.0
+1048,Meadowlands,Bolivia,2014,0.7,United States,2.5,Bolivia,32996187988.4226,17393103000000.0
+1050,Meadowlands,Belize,2014,0.7,United States,3.0,Belize,1706497950.0,17393103000000.0
+1051,Meadowlands,Nicaragua,2014,0.7,United States,3.0,Nicaragua,11880438824.4494,17393103000000.0
+1052,Meadowlands,Dominican Republic,2014,0.7,United States,3.5,Dominican Republic,65231032303.2418,17393103000000.0
+1053,Menakao (aka Cinagra),Madagascar,2012,0.8,Madagascar,2.5,Madagascar,9919780071.28764,9919780071.28764
+1054,Menakao (aka Cinagra),Madagascar,2012,0.72,Madagascar,2.5,Madagascar,9919780071.28764,9919780071.28764
+1055,Mesocacao,El Salvador,2015,0.8,Honduras,2.75,El Salvador,26052340000.0,20844284855.0025
+1056,Mesocacao,El Salvador,2015,0.7,Honduras,3.0,El Salvador,26052340000.0,20844284855.0025
+1057,Mesocacao,Honduras,2014,0.8,Honduras,3.25,Honduras,19756494434.7031,19756494434.7031
+1058,Mesocacao,Honduras,2014,0.7,Honduras,3.5,Honduras,19756494434.7031,19756494434.7031
+1059,Mesocacao,La Tronca,2014,0.7,Honduras,3.25,Nicaragua,11880438824.4494,19756494434.7031
+1060,Mesocacao,La Tronca,2014,0.8,Honduras,3.5,Nicaragua,11880438824.4494,19756494434.7031
+1061,Metiisto,Fazenda Sempre Firme P.,2014,0.7,Sweden,3.0,Brazil,2455993200170.0,573817719109.402
+1062,Metiisto,Akesson Estate,2014,0.72,Sweden,3.5,Madagascar,10673516672.6664,573817719109.402
+1064,Michel Cluizel,Chiapas,2012,0.66,France,3.75,Mexico,1186598324461.82,2681416108537.39
+1068,Michel Cluizel,Los Ancones P.,2006,0.67,France,4.0,Dominican Republic,35952845582.5029,2325011918203.49
+1069,Michel Cluizel,Mangaro P.,2006,0.65,France,4.0,Madagascar,5515884348.54904,2325011918203.49
+1070,Michel Cluizel,Maralumi P.,2006,0.64,France,4.0,Papua New Guinea,8306343442.27435,2325011918203.49
+1071,Middlebury,Maya Mountain,2015,0.8,United States,3.5,Belize,1742545900.0,18120714000000.0
+1073,Middlebury,Oko Caribe,2015,0.75,United States,3.75,Dominican Republic,68102618092.1031,18120714000000.0
+1075,Middlebury,Kokoa Kamili,2015,0.75,United States,3.25,Tanzania,45628320606.0487,18120714000000.0
+1076,Middlebury,Matagalpa,2015,0.7,United States,3.5,Nicaragua,12747741539.7259,18120714000000.0
+1077,Middlebury,La Red,2013,0.75,United States,2.5,Dominican Republic,61965942056.6828,16691517000000.0
+1078,Middlebury,Belize,2013,0.8,United States,3.25,Belize,1613705850.0,16691517000000.0
+1079,Middlebury,Alto Beni,2012,0.75,United States,2.0,Bolivia,27084497539.7974,16155255000000.0
+1080,Middlebury,Balinese,2012,0.7,United States,2.5,Indonesia,917869910105.749,16155255000000.0
+1081,Millcreek Cacao Roasters,Ecuador,2013,0.7,United States,2.5,Ecuador,95129659000.0,16691517000000.0
+1082,Millcreek Cacao Roasters,Ecuador,2012,0.7,United States,3.5,Ecuador,87924544000.0,16155255000000.0
+1083,Mindo,Ecuador,2010,0.67,United States,2.75,Ecuador,69555367000.0,14964372000000.0
+1084,Mindo,Ecuador,2010,0.77,United States,2.75,Ecuador,69555367000.0,14964372000000.0
+1085,Minimal,Acul-du-Nord,2016,0.7,Japan,3.5,Haiti,8022638721.92013,4940158776617.16
+1086,Mission,Fazenda Camboa,2016,0.75,Brazil,3.75,Brazil,1796186586414.45,1796186586414.45
+1087,Mission,Bahia,2015,0.7,Brazil,3.5,Brazil,1803652649613.75,1803652649613.75
+1088,Mita,Tumaco,2012,0.65,Colombia,2.5,Colombia,369659697842.885,369659697842.885
+1089,Moho,Toledo District,2013,0.73,United States,3.25,Belize,1613705850.0,16691517000000.0
+1090,Moho,Toledo District,2013,0.72,United States,3.0,Belize,1613705850.0,16691517000000.0
+1091,Moho,Umoho R.,2010,0.67,United States,2.75,Belize,1397113450.0,14964372000000.0
+1092,Molucca,La Red,2015,0.7,United States,3.0,Dominican Republic,68102618092.1031,18120714000000.0
+1093,Molucca,Indonesia,2015,0.7,United States,2.75,Indonesia,861256351277.359,18120714000000.0
+1094,Molucca,Peru,2015,0.7,United States,3.25,Peru,189212096470.293,18120714000000.0
+1095,Momotombo,Matagalpa,2011,0.7,Nicaragua,2.75,Nicaragua,9774316692.15985,9774316692.15985
+1096,Momotombo,Mombacho,2011,0.7,Nicaragua,2.75,Nicaragua,9774316692.15985,9774316692.15985
+1097,Momotombo,Oscuro,2011,0.7,Nicaragua,3.25,Nicaragua,9774316692.15985,9774316692.15985
+1098,Monarque,Oko Caribe,2016,0.72,Canada,3.5,Dominican Republic,71583553487.5646,1529760492201.35
+1099,Monsieur Truffe,Papaua New Guinea,2014,0.7,Australia,3.25,Papua New Guinea,23003575201.1051,1459597906912.7
+1100,Montecristi,Manabi,2015,0.7,Ecuador,3.25,Ecuador,99290381000.0,99290381000.0
+1101,Montecristi,Manabi,2015,0.63,Ecuador,3.5,Ecuador,99290381000.0,99290381000.0
+1102,Montecristi,Manabi,2015,0.85,Ecuador,3.5,Ecuador,99290381000.0,99290381000.0
+1103,Muchomas (Mesocacao),Nicaragua,2015,0.7,United States,3.5,Nicaragua,12747741539.7259,18120714000000.0
+1104,Muchomas (Mesocacao),Nicaragua,2015,0.8,United States,3.5,Nicaragua,12747741539.7259,18120714000000.0
+1105,Mutari,Kokoa Kamili,2016,0.68,United States,2.75,Tanzania,47340071107.343,18624475000000.0
+1106,Mutari,Oko Caribe,2016,0.71,United States,2.75,Dominican Republic,71583553487.5646,18624475000000.0
+1107,Mutari,Ambanja,2016,0.68,United States,2.75,Madagascar,10001193420.1518,18624475000000.0
+1108,Mutari,Tien Giang,2016,0.8,United States,3.0,Vietnam,205276172134.901,18624475000000.0
+1109,Nahua,Costa Rica,2013,0.58,Costa Rica,2.5,Costa Rica,49745088111.6953,49745088111.6953
+1110,Nahua,Costa Rica,2013,0.7,Costa Rica,3.0,Costa Rica,49745088111.6953,49745088111.6953
+1112,Naive,Maranon Canyon,2013,0.78,Lithuania,3.75,Peru,201217661645.509,46473646001.5672
+1113,Naive,Grenada,2012,0.71,Lithuania,2.5,Grenada,799882148.148148,42847900765.8065
+1114,Na�ve,Nicaragua,2014,0.7,Lithuania,3.25,Nicaragua,11880438824.4494,48545251795.561
+1118,Nathan Miller,Peru,2014,0.72,United States,2.25,Peru,201049665375.132,17393103000000.0
+1119,Nathan Miller,Hispaniola,2014,0.7,United States,2.5,Dominican Republic,65231032303.2418,17393103000000.0
+1120,Nathan Miller,Madagascar,2014,0.735,United States,2.5,Madagascar,10673516672.6664,17393103000000.0
+1121,Nathan Miller,Ghana,2014,0.7,United States,3.5,Ghana,38616536131.648,17393103000000.0
+1122,Neuhaus (Callebaut),Papua New Guinea,2010,0.7,Belgium,2.5,Papua New Guinea,14250726289.854,483548031197.108
+1128,Nibble,Elvesia P.,2015,0.72,United States,2.75,Dominican Republic,68102618092.1031,18120714000000.0
+1129,Nibble,Ambanja,2015,0.72,United States,3.0,Madagascar,9744243420.48073,18120714000000.0
+1130,Nibble,Tumbes,2015,0.72,United States,3.0,Peru,189212096470.293,18120714000000.0
+1131,Night Owl,Peru,2013,0.75,United States,2.75,Peru,201217661645.509,16691517000000.0
+1132,Night Owl,Ecuador,2013,0.75,United States,3.5,Ecuador,95129659000.0,16691517000000.0
+1133,Noble Bean aka Jerjobo,Ghana,2014,0.75,United States,3.0,Ghana,38616536131.648,17393103000000.0
+1134,Noble Bean aka Jerjobo,Moho Valley,2014,0.75,United States,3.0,Belize,1706497950.0,17393103000000.0
+1135,Noble Bean aka Jerjobo,Maranon Canyon,2014,0.75,United States,3.25,Peru,201049665375.132,17393103000000.0
+1137,Noir d' Ebine,Ecuador,2012,0.7,United States,3.0,Ecuador,87924544000.0,16155255000000.0
+1138,Nova Monda,La Patriota,2012,0.7,Nicaragua,3.0,Nicaragua,10532001129.67,10532001129.67
+1140,Nova Monda,Punta Galera,2012,0.8,Nicaragua,3.25,Ecuador,87924544000.0,10532001129.67
+1141,Nuance,Ghana,2015,0.7,United States,3.75,Ghana,37543361203.5609,18120714000000.0
+1142,Nuance,Ecuador,2015,0.7,United States,2.75,Ecuador,99290381000.0,18120714000000.0
+1144,Nuance,Sambirano Valley,2015,0.7,United States,3.5,Madagascar,9744243420.48073,18120714000000.0
+1145,Nuance,La Red,2015,0.7,United States,3.75,Dominican Republic,68102618092.1031,18120714000000.0
+1146,Nugali,Fazenda Leolinda,2016,0.7,Brazil,3.5,Brazil,1796186586414.45,1796186586414.45
+1147,Oakland Chocolate Co.,Jamaica,2010,0.7,United States,2.5,Jamaica,13191645685.5116,14964372000000.0
+1148,Obolo,Pangoa,2015,0.7,Chile,3.75,Peru,189212096470.293,242517905161.664
+1149,Obolo,Pangoa,2015,0.7,Chile,3.75,Peru,189212096470.293,242517905161.664
+1152,Ocho,Sang Yum Coop,2016,0.1,New Zealand,2.75,Samoa,786356314.80277,184969146624.47
+1153,Ocho,Sang Yum Coop,2016,0.7,New Zealand,3.5,Samoa,786356314.80277,184969146624.47
+1154,Ocho,PNG,2014,0.66,New Zealand,2.75,Papua New Guinea,23003575201.1051,200696291789.952
+1155,Ocho,PNG,2014,0.7,New Zealand,3.0,Papua New Guinea,23003575201.1051,200696291789.952
+1156,Ocho,PNG,2014,0.88,New Zealand,3.25,Papua New Guinea,23003575201.1051,200696291789.952
+1157,Ocho,PNG,2014,0.74,New Zealand,3.5,Papua New Guinea,23003575201.1051,200696291789.952
+1159,Ohiyo,Tanzania,2015,0.7,United States,3.0,Tanzania,45628320606.0487,18120714000000.0
+1160,Oialla by Bojessen (Malmo),Sylvestre,2011,0.7,Germany,3.5,Bolivia,23963033443.8518,3757698281117.55
+1161,Olive and Sinclair,Dominican Republic prototype,2010,0.72,United States,3.0,Dominican Republic,53954579003.5277,14964372000000.0
+1162,Olive and Sinclair,Ghana prototype,2010,0.72,United States,3.0,Ghana,32174772955.9748,14964372000000.0
+1163,Olive and Sinclair,Dark 67,2009,0.67,United States,2.75,Ghana,25977847813.7422,14418739000000.0
+1164,Olive and Sinclair,Dark 75,2009,0.75,United States,3.0,Ghana,25977847813.7422,14418739000000.0
+1169,Omanhene,Ghana,2011,0.8,Ghana,2.75,Ghana,39566292432.8615,39566292432.8615
+1170,Omnom,Kakao Kamili,2016,0.7,Iceland,3.75,Tanzania,47340071107.343,20047413006.3471
+1171,Omnom,Papua New Guinea,2014,0.7,Iceland,3.0,Papua New Guinea,23003575201.1051,17178962757.4324
+1172,Omnom,Madagascar,2014,0.66,Iceland,3.5,Madagascar,10673516672.6664,17178962757.4324
+1173,organicfair,Maya Mountain,2013,0.74,Canada,2.75,Belize,1613705850.0,1842628005830.18
+1174,organicfair,La Red,2013,0.72,Canada,2.75,Dominican Republic,61965942056.6828,1842628005830.18
+1175,organicfair,Nicaraqua,2013,0.72,Canada,2.75,Nicaragua,10982972256.3787,1842628005830.18
+1176,organicfair,Caribe,2013,0.72,Canada,3.0,Dominican Republic,61965942056.6828,1842628005830.18
+1177,organicfair,Mindo,2013,0.72,Canada,3.0,Ecuador,95129659000.0,1842628005830.18
+1178,Original Beans (Felchlin),Papua Kerafat,2014,0.68,Switzerland,2.75,Papua New Guinea,23003575201.1051,709182559935.301
+1179,Original Beans (Felchlin),Alto Beni,2011,0.66,Switzerland,3.75,Bolivia,23963033443.8518,699579638638.226
+1181,Original Beans (Felchlin),Piura,2009,0.75,Switzerland,3.0,Peru,120822986521.479,541506500413.565
+1182,Original Beans (Felchlin),Alto Beni,2009,0.68,Switzerland,3.25,Bolivia,17339992165.2422,541506500413.565
+1185,Orquidea,Peru,2012,0.65,Peru,3.0,Peru,192648999090.082,192648999090.082
+1186,Orquidea,Peru,2012,0.72,Peru,3.0,Peru,192648999090.082,192648999090.082
+1187,Pacari,Sierra Nevada,2016,0.7,Ecuador,4.0,Colombia,282462551366.878,98613972000.0
+1188,Pacari,Garaua,2014,0.7,Ecuador,3.25,Ecuador,101726331000.0,101726331000.0
+1189,Pacari,Cumbia,2014,0.7,Ecuador,3.5,Ecuador,101726331000.0,101726331000.0
+1190,Pacari,Montubia,2014,0.7,Ecuador,3.75,Ecuador,101726331000.0,101726331000.0
+1191,Pacari,Tangara,2014,0.7,Ecuador,4.0,Ecuador,101726331000.0,101726331000.0
+1192,Pacari,Ecuador,2012,0.85,Ecuador,2.75,Ecuador,87924544000.0,87924544000.0
+1193,Pacari,Piura,2012,0.7,Ecuador,4.0,Peru,192648999090.082,87924544000.0
+1194,Pacari,Nube- prototype,2011,0.7,Ecuador,3.5,Ecuador,79276664000.0,79276664000.0
+1195,Pacari,Esmeraldas,2008,0.6,Ecuador,2.5,Ecuador,61762635000.0,61762635000.0
+1196,Pacari,Manabi,2008,0.65,Ecuador,2.75,Ecuador,61762635000.0,61762635000.0
+1197,Pacari,Los Rios,2008,0.72,Ecuador,3.0,Ecuador,61762635000.0,61762635000.0
+1198,Pacari,Raw,2008,0.1,Ecuador,2.0,Ecuador,61762635000.0,61762635000.0
+1199,Pacari,Raw,2008,0.7,Ecuador,3.5,Ecuador,61762635000.0,61762635000.0
+1200,Palette de Bine,Lachua,2016,0.7,Canada,2.75,Guatemala,68763255963.8943,1529760492201.35
+1201,Palette de Bine,Maya Mtn,2016,0.72,Canada,3.0,Belize,1741100000.0,1529760492201.35
+1202,Palette de Bine,Silvestre,2015,0.7,Canada,3.25,Bolivia,33000198263.3864,1552807652015.37
+1204,Palette de Bine,Kokoa Kamili,2015,0.72,Canada,3.5,Tanzania,45628320606.0487,1552807652015.37
+1205,Palette de Bine,Lam Dong,2015,0.72,Canada,3.75,Vietnam,193241108709.536,1552807652015.37
+1206,Palette de Bine,Alto Beni,2014,0.72,Canada,2.75,Bolivia,32996187988.4226,1792883225804.38
+1207,Palette de Bine,Sambirano,2014,0.78,Canada,3.75,Madagascar,10673516672.6664,1792883225804.38
+1208,Palette de Bine,Camino Verde P.,2014,0.75,Canada,2.75,Ecuador,101726331000.0,1792883225804.38
+1211,Pangea,Matasawalevu,2016,0.76,Spain,3.0,Fiji,4703632978.46947,1237255019653.86
+1213,Parliament,Kilombero Valley,2016,0.7,United States,3.25,Tanzania,47340071107.343,18624475000000.0
+1214,Parliament,Lachua,2015,0.7,United States,3.5,Guatemala,63767597193.9175,18120714000000.0
+1215,Parliament,Alto Beni,2014,0.7,United States,3.0,Bolivia,32996187988.4226,17393103000000.0
+1216,Parliament,Oko Caribe,2014,0.7,United States,3.5,Dominican Republic,65231032303.2418,17393103000000.0
+1217,Pascha,Peru,2013,0.55,Peru,2.5,Peru,201217661645.509,201217661645.509
+1218,Pascha,Peru,2013,0.7,Peru,2.75,Peru,201217661645.509,201217661645.509
+1219,Patric,Madagascar,2009,0.75,United States,4.0,Madagascar,8550363974.79243,14418739000000.0
+1220,Patric,Madagascar,2009,0.67,United States,3.5,Madagascar,8550363974.79243,14418739000000.0
+1222,Patric,Madagascar,2007,0.7,United States,4.0,Madagascar,7342923489.09616,14477635000000.0
+1223,Patric,Piura,2013,0.67,United States,4.0,Peru,201217661645.509,16691517000000.0
+1224,Paul Young,Madagascar,2014,0.73,United Kingdom,2.25,Madagascar,10673516672.6664,3022827781881.39
+1225,Paul Young,Madagascar,2014,0.64,United Kingdom,2.75,Madagascar,10673516672.6664,3022827781881.39
+1226,Peppalo,Dominican Republic,2015,0.82,United States,3.0,Dominican Republic,68102618092.1031,18120714000000.0
+1227,Pierre Marcolini,Haut Penja,2015,0.7,Belgium,3.25,Cameroon,30916218544.4404,455200045095.643
+1230,Pierre Marcolini,Baracoa,2010,0.78,Belgium,3.75,Cuba,64328000000.0,483548031197.108
+1231,Pierre Marcolini,Peru,2010,0.85,Belgium,3.0,Peru,147528937028.778,483548031197.108
+1232,Pierre Marcolini,Bahia Brazil,2009,0.72,Belgium,3.0,Brazil,1667019605881.76,484552792442.345
+1233,Pierre Marcolini,Porcelana,2009,0.72,Belgium,3.0,Mexico,894948748436.748,484552792442.345
+1235,Pierre Marcolini,Los Rios,2007,0.72,Belgium,3.75,Ecuador,51007777000.0,471821105940.323
+1236,Pierre Marcolini,Sambirano,2007,0.72,Belgium,4.0,Madagascar,7342923489.09616,471821105940.323
+1238,Pierre Marcolini,Porcelana,2006,0.72,Belgium,4.0,Mexico,965281191371.844,409813197842.178
+1239,Pierre Marcolini,Kendem Lembu,2006,0.72,Belgium,3.0,Indonesia,388167833438.821,409813197842.178
+1241,Pinellas,Wampusirpi Region,2016,0.8,United States,2.5,Honduras,21516938909.5686,18624475000000.0
+1242,Pitch Dark,Tenor,2015,0.62,United States,2.5,Nicaragua,12747741539.7259,18120714000000.0
+1243,Pitch Dark,Johe,2015,0.8,United States,2.75,Nicaragua,12747741539.7259,18120714000000.0
+1244,Pitch Dark,Chuno,2015,0.8,United States,2.75,Nicaragua,12747741539.7259,18120714000000.0
+1245,Pitch Dark,Nicalizo,2015,0.8,United States,2.75,Nicaragua,12747741539.7259,18120714000000.0
+1246,Pitch Dark,Rugoso,2015,0.8,United States,3.25,Nicaragua,12747741539.7259,18120714000000.0
+1247,Pitch Dark,Akesson Estate,2014,0.73,United States,3.25,Madagascar,10673516672.6664,17393103000000.0
+1248,Pitch Dark,Namau Village,2014,0.73,United States,2.5,Fiji,4469573275.40532,17393103000000.0
+1249,Pitch Dark,Camino Verde P.,2014,0.73,United States,3.25,Ecuador,101726331000.0,17393103000000.0
+1250,Pitch Dark,Camino Verde P.,2014,0.73,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+1251,Pomm (aka Dead Dog),La Red,2012,0.76,United States,2.5,Dominican Republic,60613645121.3529,16155255000000.0
+1252,Pomm (aka Dead Dog),Peru,2012,0.82,United States,2.75,Peru,192648999090.082,16155255000000.0
+1253,Potomac,Oko Caribe,2016,0.7,United States,3.75,Dominican Republic,71583553487.5646,18624475000000.0
+1255,Potomac,Upala w/ nibs,2011,0.7,United States,3.5,Costa Rica,42262697840.385,15517926000000.0
+1256,Potomac,Upala,2011,0.7,United States,3.0,Costa Rica,42262697840.385,15517926000000.0
+1257,Potomac,San Martin,2011,0.7,United States,2.75,Peru,171761737046.585,15517926000000.0
+1258,Potomac,Bahia,2011,0.7,United States,3.5,Brazil,2616201578192.25,15517926000000.0
+1259,Potomac,Upala,2010,0.82,United States,3.75,Costa Rica,37268635287.0856,14964372000000.0
+1260,Pralus,Peru,2015,0.75,France,3.25,Peru,189212096470.293,2433562015516.21
+1264,Pralus,Papouasie,2008,0.75,France,3.0,Papua New Guinea,11670678863.7458,2923465651091.26
+1265,Pralus,Sambirano Valley,2008,0.1,France,3.0,Madagascar,9413002920.97008,2923465651091.26
+1266,Pralus,Dominican Republic-Organic,2008,0.75,France,2.0,Dominican Republic,48288967303.4896,2923465651091.26
+1267,Pralus,Monte Alegre,2008,0.75,France,3.5,Brazil,1695824517395.57,2923465651091.26
+1269,Pralus,Monte Alegre (Itacare),2006,0.75,France,3.0,Brazil,1107640325472.35,2325011918203.49
+1270,Pralus,Tanzania,2006,0.75,France,3.5,Tanzania,18610460326.5437,2325011918203.49
+1273,Pralus,Madagascar,2006,0.75,France,3.75,Madagascar,5515884348.54904,2325011918203.49
+1274,Pralus,Java,2006,0.75,France,3.5,Indonesia,388167833438.821,2325011918203.49
+1276,Pralus,Jamaique,2006,0.75,France,4.0,Jamaica,11905525197.3285,2325011918203.49
+1277,Pralus,Equateur,2006,0.75,France,3.0,Ecuador,46802044000.0,2325011918203.49
+1278,Pralus,Vanuatu,2006,0.75,France,3.0,Vanuatu,439376794.094041,2325011918203.49
+1279,Pralus,Ghana,2006,0.75,France,3.25,Ghana,20409257610.4746,2325011918203.49
+1280,Pralus,Colombie,2006,0.75,France,3.5,Colombia,162590145579.958,2325011918203.49
+1281,Pralus,Fortissima,2006,0.8,France,4.0,Ecuador,46802044000.0,2325011918203.49
+1282,Pralus,Cuba,2006,0.75,France,3.0,Cuba,52742800000.0,2325011918203.49
+1284,Pralus,Djakarta,2006,0.75,France,3.5,Indonesia,388167833438.821,2325011918203.49
+1285,Pump Street Bakery,Chocoan Rainforest,2016,0.77,United Kingdom,3.5,Ecuador,98613972000.0,2647898654635.24
+1286,Pump Street Bakery,Crayfish Bay Estate,2015,0.7,United Kingdom,3.5,Grenada,997007925.925926,2885570309160.86
+1287,Pump Street Bakery,Akesson's,2015,0.74,United Kingdom,3.5,Madagascar,9744243420.48073,2885570309160.86
+1288,Pump Street Bakery,Honduras,2015,0.8,United Kingdom,2.75,Honduras,20844284855.0025,2885570309160.86
+1290,Pump Street Bakery,Guantupi River,2014,0.75,United Kingdom,3.0,Ecuador,101726331000.0,3022827781881.39
+1291,Pump Street Bakery,Akessons Estate,2014,0.72,United Kingdom,3.25,Madagascar,10673516672.6664,3022827781881.39
+1292,Pump Street Bakery,Guantupi River,2014,0.85,United Kingdom,2.75,Ecuador,101726331000.0,3022827781881.39
+1294,Q Chocolate,Brazil,2013,0.75,Brazil,3.25,Brazil,2472806919901.67,2472806919901.67
+1295,Q Chocolate,Brazil,2013,0.85,Brazil,3.5,Brazil,2472806919901.67,2472806919901.67
+1296,Q Chocolate,Brazil,2013,0.55,Brazil,2.75,Brazil,2472806919901.67,2472806919901.67
+1297,Q Chocolate,Brazil,2013,0.8,Brazil,3.25,Brazil,2472806919901.67,2472806919901.67
+1298,Q Chocolate,Brazil,2012,0.6,Brazil,3.0,Brazil,2465188674415.03,2465188674415.03
+1299,Q Chocolate,Brazil,2012,0.65,Brazil,3.25,Brazil,2465188674415.03,2465188674415.03
+1300,Quetzalli (Wolter),Mexico,2016,0.7,Mexico,2.75,Mexico,1046922702460.87,1046922702460.87
+1301,Quetzalli (Wolter),Uranga,2016,0.74,Mexico,3.0,Mexico,1046922702460.87,1046922702460.87
+1302,Raaka,Amazon Basin Blend,2016,0.7,United States,3.0,Peru,192207342004.681,18624475000000.0
+1304,Raaka,Madagascar,2012,0.75,United States,3.25,Madagascar,9919780071.28764,16155255000000.0
+1305,Raaka,La Red,2011,0.85,United States,3.5,Dominican Republic,57746684847.0898,15517926000000.0
+1306,Rain Republic,Suchitepequez E.,2010,0.7,Guatemala,2.75,Guatemala,41338595380.8159,41338595380.8159
+1308,Ranger,San Martin,2015,0.7,United States,2.5,Peru,189212096470.293,18120714000000.0
+1309,Ranger,Chulucanas,2015,0.8,United States,3.25,Peru,189212096470.293,18120714000000.0
+1310,Ranger,Tumbes,2015,0.73,United States,3.5,Peru,189212096470.293,18120714000000.0
+1311,Raoul Boulanger,Piura,2016,0.75,France,3.25,Peru,192207342004.681,2465453975282.24
+1312,Republica del Cacao (aka Confecta),Esmeraldas,2010,0.75,Ecuador,3.25,Ecuador,69555367000.0,69555367000.0
+1313,Republica del Cacao (aka Confecta),Los Rios,2009,0.75,Ecuador,2.5,Ecuador,62519686000.0,62519686000.0
+1314,Republica del Cacao (aka Confecta),Manabi,2007,0.75,Ecuador,3.0,Ecuador,51007777000.0,51007777000.0
+1315,Republica del Cacao (aka Confecta),El Oro,2007,0.67,Ecuador,3.5,Ecuador,51007777000.0,51007777000.0
+1316,Republica del Cacao (aka Confecta),Los Rios,2007,0.75,Ecuador,3.75,Ecuador,51007777000.0,51007777000.0
+1317,Ritual,Camino Verde P.,2016,0.75,United States,3.75,Ecuador,98613972000.0,18624475000000.0
+1318,Ritual,Camino Verde P.,2015,0.85,United States,3.5,Ecuador,99290381000.0,18120714000000.0
+1319,Ritual,Toledo District,2013,0.75,United States,3.75,Belize,1613705850.0,16691517000000.0
+1320,Ritual,Maranon,2013,0.75,United States,3.0,Peru,201217661645.509,16691517000000.0
+1321,Ritual,Sambirano,2012,0.75,United States,4.0,Madagascar,9919780071.28764,16155255000000.0
+1322,Ritual,Camino Verde P.,2012,0.75,United States,3.25,Ecuador,87924544000.0,16155255000000.0
+1324,Ritual,Costa Rica,2011,0.75,United States,3.5,Costa Rica,42262697840.385,15517926000000.0
+1328,Robert (aka Chocolaterie Robert),Madagascar,2013,0.75,Madagascar,3.25,Madagascar,10601690871.7611,10601690871.7611
+1329,Robert (aka Chocolaterie Robert),Madagascar w/ nibs,2013,0.68,Madagascar,3.25,Madagascar,10601690871.7611,10601690871.7611
+1330,Rococo (Grenada Chocolate Co.),Gru Grococo,2012,0.66,United Kingdom,3.5,Grenada,799882148.148148,2662085168498.93
+1331,Rogue,La Masica,2016,0.75,United States,3.75,Honduras,21516938909.5686,18624475000000.0
+1333,Rogue,Tranquilidad,2015,0.75,United States,3.25,Bolivia,33000198263.3864,18120714000000.0
+1335,Rogue,Akessons Estate,2013,0.7,United States,3.5,Madagascar,10601690871.7611,16691517000000.0
+1336,Rogue,Hispaniola,2013,0.7,United States,3.5,Dominican Republic,61965942056.6828,16691517000000.0
+1337,Rogue,Silvestre,2013,0.75,United States,4.0,Bolivia,30659338929.0883,16691517000000.0
+1338,Rogue,Bachelor's Hall E.,2013,0.75,United States,3.75,Jamaica,14274983015.9485,16691517000000.0
+1339,Rogue,Camino Verde P.,2012,0.75,United States,3.75,Ecuador,87924544000.0,16155255000000.0
+1340,Rogue,Silvestre,2011,0.75,United States,3.0,Bolivia,23963033443.8518,15517926000000.0
+1341,Rogue,Piura,2010,0.75,United States,3.75,Peru,147528937028.778,14964372000000.0
+1343,Rogue,Hispaniola,2008,0.7,United States,2.75,Dominican Republic,48288967303.4896,14718582000000.0
+1344,Rogue,Jamaica,2008,0.7,United States,2.75,Jamaica,13678606692.2655,14718582000000.0
+1345,Rogue,Sambirano,2008,0.7,United States,2.75,Madagascar,9413002920.97008,14718582000000.0
+1349,Rozsavolgyi,Sambirano,2012,0.72,Hungary,2.5,Madagascar,9919780071.28764,127856647107.82
+1354,S.A.I.D.,Malgascio,2010,0.64,Italy,3.5,Madagascar,8729936135.74487,2125058244242.92
+1355,S.A.I.D.,Samana,2010,0.7,Italy,3.0,Dominican Republic,53954579003.5277,2125058244242.92
+1359,Salgado,Bahia Superior,2008,0.7,Argentina,3.5,Brazil,1695824517395.57,361558037110.419
+1360,Salgado,Esmeraldas,2008,0.7,Argentina,3.5,Ecuador,61762635000.0,361558037110.419
+1362,Salgado,Rio Arriba,2008,0.7,Argentina,3.5,Ecuador,61762635000.0,361558037110.419
+1363,Santander (Compania Nacional),Colombian 2008,2009,0.75,Colombia,2.75,Colombia,233821670220.294,233821670220.294
+1364,Santander (Compania Nacional),Colombian w/ nibs,2009,0.7,Colombia,3.0,Colombia,233821670220.294,233821670220.294
+1365,Santander (Compania Nacional),Colombian Semi Dark,2006,0.53,Colombia,2.0,Colombia,162590145579.958,162590145579.958
+1366,Santander (Compania Nacional),Colombian,2006,0.65,Colombia,3.0,Colombia,162590145579.958,162590145579.958
+1367,Santander (Compania Nacional),Colombian Dark,2006,0.7,Colombia,4.0,Colombia,162590145579.958,162590145579.958
+1369,Scharffen Berger,San Juan de Cheni,2012,0.78,United States,4.0,Peru,192648999090.082,16155255000000.0
+1370,Scharffen Berger,Markham Valley,2011,0.68,United States,3.75,Papua New Guinea,17984816533.1084,15517926000000.0
+1371,Scharffen Berger,Camahogne,2010,0.68,United States,3.5,Grenada,771015888.888889,14964372000000.0
+1372,Scharffen Berger,Amina,2010,0.65,United States,3.75,Madagascar,8729936135.74487,14964372000000.0
+1373,Scharffen Berger,Tome Acu,2009,0.68,United States,3.75,Brazil,1667019605881.76,14418739000000.0
+1374,Scharffen Berger,Asante,2009,0.65,United States,4.0,Ghana,25977847813.7422,14418739000000.0
+1375,Scharffen Berger,Ben Tre,2009,0.72,United States,3.75,Vietnam,106014659770.222,14418739000000.0
+1380,Scharffen Berger,Kumasi Sambirano,2006,0.68,United States,2.0,Ghana,20409257610.4746,13855888000000.0
+1381,Scharffen Berger,Jamaica a l'ancienne,2006,0.7,United States,2.0,Jamaica,11905525197.3285,13855888000000.0
+1382,Seaforth,Dominican Republic,2015,0.7,United Kingdom,2.75,Dominican Republic,68102618092.1031,2885570309160.86
+1383,Seaforth,Grenada,2015,0.7,United Kingdom,2.75,Grenada,997007925.925926,2885570309160.86
+1384,Shark Mountain,Jamaica,2015,0.72,United States,3.25,Jamaica,14186886642.6685,18120714000000.0
+1385,Shark Mountain,Papua New Guinea,2015,0.73,United States,3.5,Papua New Guinea,21060901603.8145,18120714000000.0
+1387,Shark Mountain,ROIG,2015,0.74,United States,3.5,Dominican Republic,68102618092.1031,18120714000000.0
+1388,Shark Mountain,Ecuador,2014,0.75,United States,3.0,Ecuador,101726331000.0,17393103000000.0
+1389,Shark Mountain,Belize,2014,0.72,United States,3.25,Belize,1706497950.0,17393103000000.0
+1392,Shattel,Tingo Maria,2016,0.7,Peru,3.25,Peru,192207342004.681,192207342004.681
+1393,Shattell,Porcelana,2011,0.75,Peru,3.5,Peru,171761737046.585,171761737046.585
+1394,Sibu,Oro,2015,0.82,Costa Rica,3.25,Costa Rica,54840103850.265,54840103850.265
+1395,Sibu,Oscuro,2015,0.7,Costa Rica,3.5,Costa Rica,54840103850.265,54840103850.265
+1396,Sibu Sura,Peru,2012,0.7,United States,2.5,Peru,192648999090.082,16155255000000.0
+1397,Silvio Bessone,Maya Belize,2011,0.67,Italy,3.0,Belize,1486712300.0,2276292404600.52
+1399,Silvio Bessone,Bahia,2011,0.6,Italy,3.25,Brazil,2616201578192.25,2276292404600.52
+1400,Silvio Bessone,Porcelana,2011,0.68,Italy,3.0,Colombia,335415162155.574,2276292404600.52
+1401,Sirene,Wild Bolivia,2016,0.73,Canada,3.5,Bolivia,33806395513.7482,1529760492201.35
+1402,Sirene,Kokoa Kamili Coop,2016,0.73,Canada,3.5,Tanzania,47340071107.343,1529760492201.35
+1403,Sirene,Esmeraldas,2016,0.73,Canada,3.75,Ecuador,98613972000.0,1529760492201.35
+1404,Sirene,Somia Plantation,2015,0.1,Canada,3.0,Madagascar,9744243420.48073,1552807652015.37
+1405,Sirene,Camino Verde P.,2015,0.1,Canada,3.0,Ecuador,99290381000.0,1552807652015.37
+1406,Sirene,Lachua w/ cane sugar,2015,0.73,Canada,3.0,Guatemala,63767597193.9175,1552807652015.37
+1407,Sirene,Lachua w/ maple sugar,2015,0.73,Canada,3.25,Guatemala,63767597193.9175,1552807652015.37
+1408,Sirene,Pisa,2015,0.73,Canada,3.25,Haiti,8724656126.49849,1552807652015.37
+1409,Sirene,Somia Plantation,2014,0.67,Canada,3.75,Madagascar,10673516672.6664,1792883225804.38
+1410,Sirene,Somia Plantation,2014,0.73,Canada,3.75,Madagascar,10673516672.6664,1792883225804.38
+1411,Sirene,Camino Verde P.,2014,0.73,Canada,3.75,Ecuador,101726331000.0,1792883225804.38
+1412,Sjolinds,Ghana,2015,0.7,United States,2.75,Ghana,37543361203.5609,18120714000000.0
+1413,Sjolinds,Nicaragua,2015,0.72,United States,3.0,Nicaragua,12747741539.7259,18120714000000.0
+1416,"Smooth Chocolator, The",Porcelana,2016,0.7,Australia,4.0,Ecuador,98613972000.0,1204616439828.41
+1417,"Smooth Chocolator, The",Maya Mtn,2016,0.7,Australia,3.75,Belize,1741100000.0,1204616439828.41
+1418,"Smooth Chocolator, The",Tien Giang,2016,0.7,Australia,3.0,Vietnam,205276172134.901,1204616439828.41
+1419,"Smooth Chocolator, The",Australia,2016,0.67,Australia,3.75,Australia,1204616439828.41,1204616439828.41
+1420,"Smooth Chocolator, The",Chimelb,2016,0.7,Australia,3.25,Guatemala,68763255963.8943,1204616439828.41
+1421,"Smooth Chocolator, The",Akesson's Estate,2015,0.65,Australia,3.25,Madagascar,9744243420.48073,1345383143356.35
+1422,"Smooth Chocolator, The",Akesson's Estate,2015,0.7,Australia,3.5,Madagascar,9744243420.48073,1345383143356.35
+1423,"Smooth Chocolator, The",Kokoa Kamili,2015,0.67,Australia,3.75,Tanzania,45628320606.0487,1345383143356.35
+1425,"Smooth Chocolator, The",Camino Verde,2015,0.72,Australia,4.0,Ecuador,99290381000.0,1345383143356.35
+1426,"Smooth Chocolator, The",Bolivia,2015,0.72,Australia,2.75,Bolivia,33000198263.3864,1345383143356.35
+1427,"Smooth Chocolator, The",Papua New Guinea,2015,0.65,Australia,3.5,Papua New Guinea,21060901603.8145,1345383143356.35
+1428,"Smooth Chocolator, The",Maranon,2015,0.67,Australia,3.0,Peru,189212096470.293,1345383143356.35
+1430,Snake & Butterfly,Ghana,2011,0.67,United States,1.5,Ghana,39566292432.8615,15517926000000.0
+1431,Snake & Butterfly,Madagascar,2010,0.68,United States,3.0,Madagascar,8729936135.74487,14964372000000.0
+1432,Snake & Butterfly,Ecuador,2010,0.68,United States,3.25,Ecuador,69555367000.0,14964372000000.0
+1433,Sol Cacao,Ecuador,2016,0.7,United States,3.5,Ecuador,98613972000.0,18624475000000.0
+1434,Sol Cacao,Madagascar,2015,0.72,United States,3.0,Madagascar,9744243420.48073,18120714000000.0
+1435,Solkiki,Maranon,2016,0.68,United Kingdom,2.75,Peru,192207342004.681,2647898654635.24
+1436,Solkiki,Castillo,2016,0.85,United Kingdom,2.75,Dominican Republic,71583553487.5646,2647898654635.24
+1437,Solomons Gold,Solomon Island,2016,0.7,New Zealand,3.25,Solomon Islands,1202125000.0,184969146624.47
+1438,Solomons Gold,Solomon Island w/ nibs,2016,0.75,New Zealand,3.25,Solomon Islands,1202125000.0,184969146624.47
+1439,Solstice,Bundibugyo,2014,0.7,United States,3.0,Uganda,27295207927.5612,17393103000000.0
+1440,Solstice,Sambirano,2013,0.7,United States,3.0,Madagascar,10601690871.7611,16691517000000.0
+1442,Solstice,Bolivia,2013,0.7,United States,3.25,Bolivia,30659338929.0883,16691517000000.0
+1443,Solstice,San Martin,2013,0.7,United States,3.25,Peru,201217661645.509,16691517000000.0
+1444,Soma,Oko Caribe,2016,0.62,Canada,3.5,Dominican Republic,71583553487.5646,1529760492201.35
+1445,Soma,Sambirano Valley,2016,0.7,Canada,3.5,Madagascar,10001193420.1518,1529760492201.35
+1446,Soma,Bahia Black,2016,0.7,Canada,3.5,Brazil,1796186586414.45,1529760492201.35
+1448,Soma,Chuno,2016,0.7,Canada,3.75,Nicaragua,13230844686.858,1529760492201.35
+1449,Soma,Tien Giang,2016,0.7,Canada,4.0,Vietnam,205276172134.901,1529760492201.35
+1450,Soma,Camino Verde,2016,0.7,Canada,3.25,Ecuador,98613972000.0,1529760492201.35
+1453,Soma,La Tronca,2014,0.7,Canada,3.5,Nicaragua,11880438824.4494,1792883225804.38
+1454,Soma,Maranon Canyon,2014,0.7,Canada,3.75,Peru,201049665375.132,1792883225804.38
+1455,Soma,La Dalia,2014,0.7,Canada,3.25,Nicaragua,11880438824.4494,1792883225804.38
+1456,Soma,Camino Verde P.,2014,0.8,Canada,3.5,Ecuador,101726331000.0,1792883225804.38
+1457,Soma,Espiritu Santo,2014,0.7,Canada,3.75,Vanuatu,814954306.971033,1792883225804.38
+1459,Soma,Rizek Cacao,2013,0.77,Canada,3.75,Dominican Republic,61965942056.6828,1842628005830.18
+1460,Soma,Java,2013,0.7,Canada,3.25,Indonesia,912524136718.018,1842628005830.18
+1461,Soma,Apurimac,2013,0.7,Canada,2.75,Peru,201217661645.509,1842628005830.18
+1464,Soma,Crazy 88,2013,0.88,Canada,4.0,Guatemala,53851058955.2999,1842628005830.18
+1466,Soma,Equator,2013,0.67,Canada,4.0,Peru,201217661645.509,1842628005830.18
+1468,Soma,Bachelor's Hall E.,2013,0.7,Canada,4.0,Jamaica,14274983015.9485,1842628005830.18
+1469,Soma,Noula Coop,2012,0.7,Canada,3.25,Haiti,7890216507.68913,1824288757447.57
+1471,Soma,Dual Origins,2012,0.7,Canada,4.0,Dominican Republic,60613645121.3529,1824288757447.57
+1472,Soma,Dancing in Your Head,2012,0.7,Canada,4.0,Grenada,799882148.148148,1824288757447.57
+1473,Soma,Cahabon Region,2012,0.7,Canada,3.5,Guatemala,50388454861.1111,1824288757447.57
+1475,Soma,Eastern Promises,2012,0.7,Canada,3.5,Madagascar,9919780071.28764,1824288757447.57
+1476,Soma,Papua New Guinea,2012,0.85,Canada,3.5,Papua New Guinea,21295834133.2309,1824288757447.57
+1477,Soma,Grenada,2011,0.7,Canada,2.75,Grenada,778648666.666667,1788647906047.76
+1478,Soma,Alto Beni,2011,0.7,Canada,3.5,Bolivia,23963033443.8518,1788647906047.76
+1479,Soma,Peruvian,2011,0.64,Canada,4.0,Peru,171761737046.585,1788647906047.76
+1481,Soma,Elvesia P.,2011,0.7,Canada,3.75,Dominican Republic,57746684847.0898,1788647906047.76
+1484,Soma,Hispaniola,2009,0.7,Canada,3.0,Dominican Republic,48376555305.6902,1371153004986.44
+1485,Soma,Africa,2009,0.7,Canada,3.5,Ghana,25977847813.7422,1371153004986.44
+1486,Soma,Conacado,2009,0.7,Canada,3.0,Dominican Republic,48376555305.6902,1371153004986.44
+1487,Soma,Papua New Guinea,2009,0.7,Canada,3.5,Papua New Guinea,11619541940.4014,1371153004986.44
+1488,Soma,Madagascar,2009,0.7,Canada,3.75,Madagascar,8550363974.79243,1371153004986.44
+1490,Somerville,Nicaragua,2014,0.7,United States,3.25,Nicaragua,11880438824.4494,17393103000000.0
+1498,Spagnvola,AgroCriso Plantation,2012,0.7,United States,3.0,Dominican Republic,60613645121.3529,16155255000000.0
+1499,Spagnvola,AgroCriso Plantation,2012,0.8,United States,3.0,Dominican Republic,60613645121.3529,16155255000000.0
+1500,Spagnvola,AgroCriso Plantation,2012,0.75,United States,3.25,Dominican Republic,60613645121.3529,16155255000000.0
+1504,Spencer,Dominican Republic,2016,0.7,Australia,3.5,Dominican Republic,71583553487.5646,1204616439828.41
+1505,Spencer,Ecuador,2016,0.7,Australia,3.75,Ecuador,98613972000.0,1204616439828.41
+1506,Spencer,Madagascar,2016,0.7,Australia,3.75,Madagascar,10001193420.1518,1204616439828.41
+1507,Spencer,Malekula Island,2014,0.72,Australia,2.75,Vanuatu,814954306.971033,1459597906912.7
+1508,Sprungli (Felchlin),Alto Beni,2013,0.7,Switzerland,3.0,Bolivia,30659338929.0883,688504173431.454
+1509,SRSLY,Dominican Republic,2013,0.7,United States,3.0,Dominican Republic,61965942056.6828,16691517000000.0
+1510,SRSLY,Dominican Republic,2013,0.84,United States,2.25,Dominican Republic,61965942056.6828,16691517000000.0
+1511,Starchild,Bolivar,2015,0.7,United States,3.0,Ecuador,99290381000.0,18120714000000.0
+1512,Starchild,Hispaniola,2015,0.7,United States,3.0,Dominican Republic,68102618092.1031,18120714000000.0
+1513,Starchild,Cacao Verapaz,2015,0.7,United States,3.0,Guatemala,63767597193.9175,18120714000000.0
+1514,Starchild,Rio Tuma,2015,0.7,United States,3.0,Nicaragua,12747741539.7259,18120714000000.0
+1515,Starchild,Sambirano Valley,2015,0.7,United States,3.0,Madagascar,9744243420.48073,18120714000000.0
+1516,Stella (aka Bernrain),Bahia,2012,0.68,Switzerland,2.75,Brazil,2465188674415.03,668043614122.87
+1517,Stella (aka Bernrain),India,2011,0.72,Switzerland,3.25,India,1823049927771.46,699579638638.226
+1518,Stone Grindz,Ecuador,2014,0.84,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+1519,Stone Grindz,Ecuador,2014,0.7,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+1520,StRita Supreme,Samar,2012,0.65,United States,2.5,Philippines,250092093547.532,16155255000000.0
+1521,StRita Supreme,Samar,2012,0.7,United States,2.5,Philippines,250092093547.532,16155255000000.0
+1522,StRita Supreme,Samar,2012,0.75,United States,2.75,Philippines,250092093547.532,16155255000000.0
+1523,Sublime Origins,Sambirano,2013,0.67,United States,2.75,Madagascar,10601690871.7611,16691517000000.0
+1524,Sublime Origins,Moho Valley,2013,0.78,United States,3.25,Belize,1613705850.0,16691517000000.0
+1525,Summerbird,Peru,2016,0.61,Denmark,2.5,Peru,192207342004.681,306899653409.601
+1526,Summerbird,Peru,2016,0.71,Denmark,3.0,Peru,192207342004.681,306899653409.601
+1529,Svenska Kakaobolaget,Sri Lanka,2015,0.7,Sweden,2.75,Sri Lanka,80611989527.2158,497918109302.399
+1530,Szanto Tibor,Nacional,2015,0.7,Hungary,3.25,Ecuador,99290381000.0,122879042001.915
+1531,Szanto Tibor,Baracoa,2015,0.88,Hungary,3.25,Cuba,87132800000.0,122879042001.915
+1532,Szanto Tibor,Ambolikapiky,2015,0.7,Hungary,3.25,Madagascar,9744243420.48073,122879042001.915
+1533,Szanto Tibor,Winak,2015,0.7,Hungary,3.75,Ecuador,99290381000.0,122879042001.915
+1534,Szanto Tibor,Ben Tre,2015,0.7,Hungary,3.25,Vietnam,193241108709.536,122879042001.915
+1535,Szanto Tibor,Fazenda Sempre Firme,2015,0.7,Hungary,3.5,Brazil,1803652649613.75,122879042001.915
+1537,Szanto Tibor,Baracoa,2014,0.7,Hungary,3.75,Cuba,80656100000.0,140118140454.711
+1538,Szanto Tibor,Autumn,2013,0.7,Hungary,3.5,Madagascar,10601690871.7611,135215704418.963
+1539,Szanto Tibor,Spring,2013,0.7,Hungary,3.5,Madagascar,10601690871.7611,135215704418.963
+1540,Szanto Tibor,Cacao Blanco,2013,0.7,Hungary,3.25,Nicaragua,10982972256.3787,135215704418.963
+1541,Szanto Tibor,Santo Domingo,2012,0.7,Hungary,3.25,Dominican Republic,60613645121.3529,127856647107.82
+1542,Szanto Tibor,Millot Plantation,2012,0.7,Hungary,3.25,Madagascar,9919780071.28764,127856647107.82
+1543,Szanto Tibor,Ayacucho,2012,0.7,Hungary,3.75,Peru,192648999090.082,127856647107.82
+1545,Tabal,Costa Rica,2013,0.7,United States,2.75,Costa Rica,49745088111.6953,16691517000000.0
+1546,Tabal,Dominican Republic,2013,0.7,United States,2.75,Dominican Republic,61965942056.6828,16691517000000.0
+1547,Tabal,Chiapas,2013,0.7,United States,2.5,Mexico,1261981728468.52,16691517000000.0
+1548,Tabal,Peru,2013,0.7,United States,3.0,Peru,201217661645.509,16691517000000.0
+1549,Tablette (aka Vanillabeans),Colombia,2015,0.7,Japan,3.0,Colombia,291519596338.693,4383076298081.86
+1550,Tablette (aka Vanillabeans),Papua,2015,0.62,Japan,3.25,Papua New Guinea,21060901603.8145,4383076298081.86
+1551,Tablette (aka Vanillabeans),Vietnam,2015,0.6,Japan,3.25,Vietnam,193241108709.536,4383076298081.86
+1553,Tan Ban Skrati,Paramaribo,2016,0.7,Suriname,3.25,Suriname,3278425328.32418,3278425328.32418
+1554,Taza,Belize,2014,0.68,United States,3.0,Belize,1706497950.0,17393103000000.0
+1555,Taza,Alto Beni,2011,0.87,United States,3.25,Bolivia,23963033443.8518,15517926000000.0
+1556,Taza,Chiapan,2009,0.75,United States,2.75,Mexico,894948748436.748,14418739000000.0
+1557,Taza,Dark,2007,0.7,United States,3.0,Dominican Republic,44169678153.1566,14477635000000.0
+1559,TCHO,Peru- Ecuador,2012,0.99,United States,3.25,Peru,192648999090.082,16155255000000.0
+1560,TCHO,Chocolatey-beta,2008,0.7,United States,2.5,Ghana,28526891010.4925,14718582000000.0
+1561,TCHO,Fruity-beta,2008,0.7,United States,2.5,Peru,120550599815.441,14718582000000.0
+1562,TCHO,Citrus-beta,2008,0.7,United States,2.75,Madagascar,9413002920.97008,14718582000000.0
+1563,TCHO,Nutty-beta,2008,0.7,United States,2.5,Peru,120550599815.441,14718582000000.0
+1564,Tejas,Concepcion,2012,0.7,United States,2.75,Madagascar,9919780071.28764,16155255000000.0
+1565,Tejas,Bayou Blend,2012,0.7,United States,3.0,Ecuador,87924544000.0,16155255000000.0
+1566,Tejas,Aranama,2012,0.7,United States,3.0,Papua New Guinea,21295834133.2309,16155255000000.0
+1567,Tejas,Presidio,2012,0.7,United States,3.5,Dominican Republic,60613645121.3529,16155255000000.0
+1568,Tejas,La Bahia,2012,0.7,United States,3.25,Ecuador,87924544000.0,16155255000000.0
+1569,Tejas,Capistrano,2012,0.7,United States,2.0,Peru,192648999090.082,16155255000000.0
+1570,Tejas,La Bahia,2012,0.7,United States,3.25,Ecuador,87924544000.0,16155255000000.0
+1571,Tejas,San Jose,2012,0.7,United States,2.75,Bolivia,27084497539.7974,16155255000000.0
+1572,Tejas,Capistrano*,2012,0.7,United States,3.0,Madagascar,9919780071.28764,16155255000000.0
+1573,Tejas,Espada,2012,0.7,United States,3.25,Mexico,1186598324461.82,16155255000000.0
+1574,Tejas,Espada,2012,0.7,United States,2.75,Brazil,2465188674415.03,16155255000000.0
+1576,Tejas,San Jose,2012,0.67,United States,3.25,Bolivia,27084497539.7974,16155255000000.0
+1577,Tejas,Bahia,2012,0.7,United States,3.5,Brazil,2465188674415.03,16155255000000.0
+1578,Terroir,Peru,2015,0.7,United States,2.75,Peru,189212096470.293,18120714000000.0
+1579,Terroir,Belize,2015,0.7,United States,3.75,Belize,1742545900.0,18120714000000.0
+1580,Terroir,Madagascar,2015,0.7,United States,3.75,Madagascar,9744243420.48073,18120714000000.0
+1581,Terroir,Ecuador,2015,0.7,United States,3.25,Ecuador,99290381000.0,18120714000000.0
+1582,Terroir,Oko Caribe,2015,0.7,United States,3.5,Dominican Republic,68102618092.1031,18120714000000.0
+1583,Terroir,Guatemala,2015,0.7,United States,3.75,Guatemala,63767597193.9175,18120714000000.0
+1584,Terroir,Ecuador,2014,0.77,United States,3.25,Ecuador,101726331000.0,17393103000000.0
+1585,Terroir,Madagascar,2014,0.67,United States,3.75,Madagascar,10673516672.6664,17393103000000.0
+1586,Terroir,Uganda,2014,0.73,United States,3.75,Uganda,27295207927.5612,17393103000000.0
+1587,The Barn,Peru,2015,0.7,Sweden,3.0,Peru,189212096470.293,497918109302.399
+1589,Theo,Madagascar,2007,0.65,United States,3.5,Madagascar,7342923489.09616,14477635000000.0
+1591,Theo,Ghana,2007,0.84,United States,3.0,Ghana,24758819717.7074,14477635000000.0
+1593,Theo,Ghana,2007,0.75,United States,3.0,Ghana,24758819717.7074,14477635000000.0
+1594,Theobroma,Piura Select,2015,0.7,Japan,3.25,Peru,189212096470.293,4383076298081.86
+1595,Timo A. Meyer,Belize,2016,0.72,Germany,3.75,Belize,1741100000.0,3477796274496.8
+1596,To'ak (Ecuatoriana),Manabi,2014,0.81,Ecuador,3.25,Ecuador,101726331000.0,101726331000.0
+1597,Tobago Estate (Pralus),Roxborough,2012,0.7,France,4.0,Trinidad and Tobago,25694164489.2373,2681416108537.39
+1598,Tocoti,Wild Bolivian,2012,0.77,United States,3.0,Bolivia,27084497539.7974,16155255000000.0
+1600,Tocoti,Dominican Republic,2011,0.74,United States,3.0,Dominican Republic,57746684847.0898,15517926000000.0
+1601,Treehouse,Conacado,2014,0.72,United States,3.0,Dominican Republic,65231032303.2418,17393103000000.0
+1602,Tsara (Cinagra),Ambanja,2011,0.72,Madagascar,3.5,Madagascar,9892702357.56691,9892702357.56691
+1603,twenty-four blackbirds,Oko Caribe,2015,0.75,United States,2.75,Dominican Republic,68102618092.1031,18120714000000.0
+1604,twenty-four blackbirds,Cedeno,2015,0.75,United States,3.5,Ecuador,99290381000.0,18120714000000.0
+1605,twenty-four blackbirds,Madagascar,2014,0.75,United States,3.5,Madagascar,10673516672.6664,17393103000000.0
+1606,twenty-four blackbirds,Dominican Republic,2013,0.68,United States,3.25,Dominican Republic,61965942056.6828,16691517000000.0
+1607,twenty-four blackbirds,Palos Blancos,2013,0.75,United States,2.5,Bolivia,30659338929.0883,16691517000000.0
+1608,twenty-four blackbirds,Dominican Republic,2011,0.73,United States,2.75,Dominican Republic,57746684847.0898,15517926000000.0
+1609,Two Ravens,Peru,2016,0.6,United States,3.0,Peru,192207342004.681,18624475000000.0
+1610,Un Dimanche A Paris,Dominican Republic,2011,0.63,France,3.75,Dominican Republic,57746684847.0898,2862680142625.14
+1611,Undone,Matagalpa,2014,0.74,United States,2.75,Nicaragua,11880438824.4494,17393103000000.0
+1612,Undone,Nourish,2014,0.7,United States,3.0,Dominican Republic,65231032303.2418,17393103000000.0
+1613,Upchurch,Madagascar,2016,0.72,United States,3.0,Madagascar,10001193420.1518,18624475000000.0
+1614,Upchurch,Tanzania,2016,0.72,United States,3.25,Tanzania,47340071107.343,18624475000000.0
+1616,Valrhona,Piura,2015,0.63,France,4.0,Peru,189212096470.293,2433562015516.21
+1617,Valrhona,Loma Sotavento,2013,0.64,France,3.5,Dominican Republic,61965942056.6828,2808511203185.39
+1620,Valrhona,Tainori,2009,0.64,France,3.75,Dominican Republic,48376555305.6902,2693827452070.02
+1621,Valrhona,Alpaco,2009,0.66,France,3.75,Ecuador,62519686000.0,2693827452070.02
+1622,Valrhona,Nyangbo,2009,0.68,France,3.5,Ghana,25977847813.7422,2693827452070.02
+1625,Valrhona,Manjari,2007,0.64,France,4.0,Madagascar,7342923489.09616,2663112510265.54
+1633,Valrhona,Sambirano,2006,0.64,France,3.5,Madagascar,5515884348.54904,2325011918203.49
+1634,Vanleer (Barry Callebaut),Manhattan,2012,0.72,United States,2.5,Ghana,41939728978.7281,16155255000000.0
+1635,Vanleer (Barry Callebaut),Napa,2012,0.65,United States,2.75,Ghana,41939728978.7281,16155255000000.0
+1636,Vao Vao (Chocolaterie Robert),Madagascar,2009,0.72,Madagascar,2.75,Madagascar,8550363974.79243,8550363974.79243
+1637,Vao Vao (Chocolaterie Robert),Madagascar,2009,0.76,Madagascar,2.75,Madagascar,8550363974.79243,8550363974.79243
+1638,Vao Vao (Chocolaterie Robert),Madagascar,2009,0.8,Madagascar,2.75,Madagascar,8550363974.79243,8550363974.79243
+1639,Vao Vao (Chocolaterie Robert),Madagascar,2009,0.7,Madagascar,3.0,Madagascar,8550363974.79243,8550363974.79243
+1640,Vao Vao (Chocolaterie Robert),Madagascar w/ nibs,2009,0.68,Madagascar,3.0,Madagascar,8550363974.79243,8550363974.79243
+1641,Vao Vao (Chocolaterie Robert),Madagascar,2009,0.64,Madagascar,3.25,Madagascar,8550363974.79243,8550363974.79243
+1642,Vicuna,Palos Blancos,2015,0.7,United States,3.25,Bolivia,33000198263.3864,18120714000000.0
+1643,Vicuna,Palos Blancos + nibs,2015,0.7,United States,3.25,Bolivia,33000198263.3864,18120714000000.0
+1644,Videri,Dominican Republic,2014,0.9,United States,3.25,Dominican Republic,65231032303.2418,17393103000000.0
+1646,Videri,Mindo,2014,0.75,United States,3.5,Ecuador,101726331000.0,17393103000000.0
+1649,Vietcacao (A. Morin),Ben Tre,2012,0.7,France,3.5,Vietnam,155820001920.492,2681416108537.39
+1650,Vintage Plantations,San Martin,2014,0.75,United States,3.0,Peru,201049665375.132,17393103000000.0
+1651,Vintage Plantations (Tulicorp),Los Rios,2007,0.1,United States,2.0,Ecuador,51007777000.0,14477635000000.0
+1652,Vintage Plantations (Tulicorp),Los Rios,2007,0.9,United States,2.0,Ecuador,51007777000.0,14477635000000.0
+1653,Vintage Plantations (Tulicorp),Los Rios,2007,0.75,United States,3.0,Ecuador,51007777000.0,14477635000000.0
+1654,Vintage Plantations (Tulicorp),Los Rios,2007,0.65,United States,3.0,Ecuador,51007777000.0,14477635000000.0
+1655,Violet Sky,Sambirano Valley,2015,0.77,United States,2.75,Madagascar,9744243420.48073,18120714000000.0
+1656,Violet Sky,Moho River Valley,2015,0.77,United States,3.0,Belize,1742545900.0,18120714000000.0
+1658,Violet Sky,Peru,2015,0.77,United States,3.25,Peru,189212096470.293,18120714000000.0
+1659,Violet Sky,Cahabon,2015,0.77,United States,2.75,Guatemala,63767597193.9175,18120714000000.0
+1660,Vivra,Peru,2016,0.7,United States,2.5,Peru,192207342004.681,18624475000000.0
+1662,Vivra,Dominican Republic,2016,0.7,United States,3.0,Dominican Republic,71583553487.5646,18624475000000.0
+1663,Wellington Chocolate Factory,Conacado,2016,0.7,New Zealand,3.5,Dominican Republic,71583553487.5646,184969146624.47
+1664,Wellington Chocolate Factory,Piura Blanco,2016,0.7,New Zealand,3.5,Peru,192207342004.681,184969146624.47
+1665,Whittakers,Ghana,2011,0.72,New Zealand,2.5,Ghana,39566292432.8615,168461998741.295
+1666,Wilkie's Organic,Amazonas,2013,0.75,Ireland,2.5,Peru,201217661645.509,239389337002.814
+1667,Wilkie's Organic,Amazonas,2013,0.89,Ireland,2.75,Peru,201217661645.509,239389337002.814
+1668,Wilkie's Organic,Tumbes,2013,0.75,Ireland,3.25,Peru,201217661645.509,239389337002.814
+1669,Wilkie's Organic,Amazonas w/ nibs,2013,0.75,Ireland,2.75,Peru,201217661645.509,239389337002.814
+1670,Willie's Cacao,Los Llanos,2016,0.7,United Kingdom,4.0,Colombia,282462551366.878,2647898654635.24
+1671,Willie's Cacao,Los Llanos,2014,0.88,United Kingdom,3.0,Colombia,378195707612.393,3022827781881.39
+1672,Willie's Cacao,Java,2013,0.1,United Kingdom,2.25,Indonesia,912524136718.018,2739818680930.19
+1673,Willie's Cacao,Sambirano,2010,0.71,United Kingdom,3.0,Madagascar,8729936135.74487,2441173394729.62
+1675,Willie's Cacao,Java,2010,0.69,United Kingdom,3.75,Indonesia,755094160363.071,2441173394729.62
+1676,Willie's Cacao,San Martin,2009,0.7,United Kingdom,3.0,Peru,120822986521.479,2382825985355.97
+1679,Wm,Wild Beniano,2016,0.76,United States,3.5,Bolivia,33806395513.7482,18624475000000.0
+1680,Wm,Ghana,2016,0.75,United States,3.75,Ghana,42689783733.873,18624475000000.0
+1681,Woodblock,Maranon,2014,0.7,United States,3.0,Peru,201049665375.132,17393103000000.0
+1682,Woodblock,Camino Verde P.,2013,0.7,United States,3.25,Ecuador,95129659000.0,16691517000000.0
+1684,Woodblock,Ecuador,2012,0.7,United States,2.5,Ecuador,87924544000.0,16155255000000.0
+1685,Woodblock,Costa Rica,2012,0.7,United States,3.0,Costa Rica,46473128285.5589,16155255000000.0
+1686,Woodblock,Sambirano,2012,0.7,United States,3.25,Madagascar,9919780071.28764,16155255000000.0
+1688,Woodblock,La Red,2011,0.7,United States,3.5,Dominican Republic,57746684847.0898,15517926000000.0
+1692,Zak's,Papua New Guinea,2015,0.7,United States,3.0,Papua New Guinea,21060901603.8145,18120714000000.0
+1693,Zak's,Dominican Republic,2015,0.7,United States,3.25,Dominican Republic,68102618092.1031,18120714000000.0
+1694,Zak's,Madagascar,2015,0.7,United States,3.25,Madagascar,9744243420.48073,18120714000000.0
+1695,Zak's,Peru,2015,0.7,United States,3.25,Peru,189212096470.293,18120714000000.0
+1696,Zak's,Belize,2015,0.7,United States,3.5,Belize,1742545900.0,18120714000000.0
+1697,Zart Pralinen,Millot P.,2016,0.7,Austria,3.5,Madagascar,10001193420.1518,390799991147.468
+1698,Zart Pralinen,UNOCACE,2016,0.7,Austria,2.75,Ecuador,98613972000.0,390799991147.468
+1700,Zart Pralinen,Kakao Kamili,2016,0.85,Austria,3.0,Tanzania,47340071107.343,390799991147.468
+1701,Zart Pralinen,Kakao Kamili,2016,0.7,Austria,3.5,Tanzania,47340071107.343,390799991147.468
+1703,Zokoko,Guadalcanal,2016,0.78,Australia,3.75,Solomon Islands,1202125000.0,1204616439828.41
+1704,Zokoko,Alto Beni,2011,0.68,Australia,3.5,Bolivia,23963033443.8518,1390557034407.97
+1705,Zokoko,Tokiala,2011,0.66,Australia,3.5,Papua New Guinea,17984816533.1084,1390557034407.97
+1706,Zokoko,Tranquilidad,2011,0.72,Australia,3.75,Bolivia,23963033443.8518,1390557034407.97
+1707,Zotter,Bocas del Toro,2012,0.72,Austria,3.5,Panama,39954761200.0,409425234155.263
+1708,Zotter,Satipo Pangoa region,2012,0.7,Austria,3.0,Peru,192648999090.082,409425234155.263
+1709,Zotter,Satipo Pangoa region,2012,0.7,Austria,3.5,Peru,192648999090.082,409425234155.263
+1710,Zotter,Loma Los Pinos,2012,0.62,Austria,3.75,Dominican Republic,60613645121.3529,409425234155.263
+1711,Zotter,El Oro,2012,0.75,Austria,3.0,Ecuador,87924544000.0,409425234155.263
+1712,Zotter,Huiwani Coop,2012,0.75,Austria,3.0,Papua New Guinea,21295834133.2309,409425234155.263
+1713,Zotter,El Ceibo Coop,2012,0.9,Austria,3.25,Bolivia,27084497539.7974,409425234155.263
+1714,Zotter,Santo Domingo,2012,0.7,Austria,3.75,Dominican Republic,60613645121.3529,409425234155.263
+1716,Zotter,Peru,2011,0.7,Austria,3.75,Peru,171761737046.585,431120310088.82
+1718,Zotter,Kerala State,2011,0.65,Austria,3.5,India,1823049927771.46,431120310088.82
+1719,Zotter,Kerala State,2011,0.62,Austria,3.25,India,1823049927771.46,431120310088.82
+1720,Zotter,Brazil,2010,0.65,Austria,3.0,Brazil,2208871646202.82,391892746544.69

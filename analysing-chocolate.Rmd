@@ -1,0 +1,523 @@
+---
+title: "Fifty Shades of Chocolate"
+subtitle: "Using Linear Regression to Measure and Predict the Impact of Chocolate"
+author: "Aidan Bartlett, Meredith Carter, Leisha Bajaj"
+date: "`r Sys.Date()`"
+output:    
+      html_document:
+         toc: yes
+         toc_float: yes
+---
+
+<font size = "2">
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+
+library(tidyverse)
+library(openintro) 
+library(tidymodels)
+library(ggridges)
+library(statsr)
+library(GGally)
+library(skimr)
+library(cowplot)
+cacao_gdp <- read_csv("cacao_gdp.csv")
+```
+
+
+```{r 3 setup_clean, include=FALSE}
+cacao_gdp <- mutate(cacao_gdp, 
+                    rating_str = as.factor(rating), 
+                    origin_country = as.factor(origin_country), 
+                    origin_gdp_log = log(origin_gdp),
+        company_gdp_log = log(origin_gdp))
+
+valid_company <- cacao_gdp %>% 
+    group_by(company_country) %>% 
+    summarise(count = n()) %>% 
+    filter(count >= 10) %>% 
+    pull(company_country)
+
+valid_origins <- cacao_gdp %>% 
+    group_by(origin_country) %>% 
+    summarise(count = n()) %>% 
+    filter(count >= 10) %>% 
+    pull(origin_country)
+
+valid_regions <- cacao_gdp %>% 
+    group_by(specific_bean_region) %>% 
+    summarise(count = n()) %>% 
+    filter(count >= 10) %>% 
+    pull(specific_bean_region)
+
+cacao_gdp <- cacao_gdp %>% 
+    filter(company_country %in% valid_company & 
+             origin_country %in% valid_origins & 
+             specific_bean_region %in% valid_regions)
+
+# origin continents: Africa, South America, Caribbean, Other
+cacao_gdp <- cacao_gdp %>% mutate(origin_continent = 
+                                    ifelse(origin_country == "Ghana" | origin_country == "Madagascar" | origin_country == "Tanzania", "Africa", 
+                                    ifelse(origin_country == "Bolivia" | origin_country == "Brazil" | origin_country == "Columbia" | origin_country == "Ecuador" | origin_country == "Peru", "South America", 
+                                    ifelse(origin_country == "Dominican Republic" | origin_country == "Grenada" | origin_country == "Jamaica", "Caribbean", 
+                                    "Other"))))
+
+# company continents: North America, Europe, Other
+cacao_gdp <- cacao_gdp %>% mutate(company_continent = 
+                                    ifelse(company_country == "United States" | company_country == "Canada", "North America",
+                                    ifelse(company_country == "Austria" | company_country == "Belgium" | company_country == "Denmark" | company_country == "France" | company_country == "Germany" | company_country == "Hungary" | company_country == "Italy" | company_country == "Spain" | company_country == "Switzerland" | company_country == "United Kingdom", "Europe",
+                                    "Other")))
+
+cacao_gdp <- mutate(cacao_gdp, origin_continent = as.factor(origin_continent), company_continent = as.factor(company_continent))
+
+large <- c("Brazil", "Ghana", "Peru")
+medium <- c("Madagascar", "Ecuador", "Dominican Republic", "Tanzania", 
+            "Bolivia", "Costa Rica", "Nicaragua")
+small <- c("Papua New Guinea", "Piura", "Tumbes", "Los Rios", "Conacado", 
+           "Belize", "Jamaica", "Grenada", "Alto Beni", "Oko Caribe", 
+           "Maya Mountain", "Sambirano", "Bahia", "La Red", "Porcelana", 
+           "Manabi", "San Martin", "Camino Verde P.", "Maranon", "Sambirano Valley")
+cacao_gdp <- cacao_gdp %>% mutate('specific_region_bin' = 
+        as.factor(ifelse(specific_bean_region %in% large, 'large', 
+               ifelse(specific_bean_region %in% medium, 'medium', 'small'))))
+```
+
+```{r data_splitting, include=FALSE}
+set.seed(6)      
+cacao_split <- initial_split(cacao_gdp, prop = 0.5)
+
+cacao_train <- training(cacao_split) 
+cacao_test <- testing(cacao_split) 
+```
+
+## Section 1 - Introduction
+
+This project looks at how chocolate rating can be impacted by several variables. Our motivation to conduct this exploration was our underlying love of chocolate.
+ 
+### Questions
+
+1.  How does a chocolate bar's cacao percentage, company country, and bean origin GDP impact its rating? - Meredith 
+
+2. How does company GDP, company continent, and origin continent impact chocolate rating? - Leisha
+
+3. How do the origin country information and cacao percentage influence chocolate rating? - Aidan 
+
+
+### Variables
+Our dataset studies factors of chocolate and their rating. The rating is based on flavor, texture, aftermelt (the experience after the chocolate has melted while eating it), and an overall factor. The other variables of chocolate that are studied by this dataset are the company that made the chocolate, the bean origin country, when the review was made, cocoa percentage, company location, bean type, and broad bean origin (the more specific version of bean origin). The ratings we found were done by Brady Brelinski, the founder of the Manhattan Chocolate Society. In addition to this, we combined it with a dataset that collected GDP for every country for every year from 1960-2016. We then combined the datasets based on the origin country and the GDP from the year the chocolate rating was done (for both the origin country and the company country). This dataframe was compiled by the World Bank, who sourced it from OECD National Accounts. 
+
+
+### Code Book
+
+| Header          |  Description
+|:----------------|:--------------------------------
+| `origin_country` | Country of Origin for the Cacao Bean (Categorical)
+| `year` | Year the Review of the Chocolate was Done (Numeric)
+| `company` | Name of Company who Manufactured the Chocolate (Categorical)
+| `specific_bean_region` | Specific Location of the Bean's Origin (Categorical)
+| `cacao_percent` | Percentage of Cacao in the Chocolate (in proportion form) (Numeric)
+| `company_country` | Country of Origin for the Manufacturer of the Chocolate (Categorical)
+| `rating` | Rating of the Chocolate Bar (out of 5) (Numeric)
+| `rating_str` | Rating of the Chocolate Bar (out of 5) as a string (Categorical)
+| `origin_gdp` | GDP in USD for the Origin Country (Numeric)
+| `company_gdp` | GDP in USD for the Country of the Maker Company (Numeric)
+| `company_gdp_log` | log of GDP in USD for the Country of the Maker Company (Numeric)
+| `origin_gdp_log` | log of GDP in USD for the Country of the Maker Company (Numeric)
+| `origin_continent` | The continent the origin_country is based in (Categorical)
+| `company_continent` | The continent the company_country is based in (Categorical)
+| `specific_region_bin` | "small", "medium" and "large" bins explained below
+
+We decided to make the rating as both a double and a string so we had the option of using it as categorical or numeric. For both the origin country, we decided to filter out all countries with less than 10 entries, in order to ensure that the rating would likely be in both the training and testing dataset. We did the same thing for the company country. In addition to this, we took the log of the company gdp and origin gdp so that the numbers would be less extreme. 
+
+In order to reduce the number of potential equations we would have to make, we organized origin_country and company_country into continents. We picked the categories based on the most frequent continents; for origin_continent this was Africa, South America, Caribbean, and for company_continent this was North America and Europe. There were other continents present but they were organised into an “Other” category, as they did not occur frequently enough to have their own category. In Aidan’s model, the variable “specific_region_bin” was created. Aidan decided that regions for the "large" category were chosen based on their country-level status and significant global impact in multiple areas of global trade and power. "medium" regions are notable but generally smaller than "large" regions or countries."small" regions are hyper-local, specific areas, or minor contributors relative to the others. This variable is not included in the glimpse.
+
+#### Glimpse of Dataset
+
+```{r, echo=FALSE, out.width = "40%"}
+glimpse(cacao_gdp)
+```
+
+
+#### Origin GDP Before and After Graphs
+
+```{r origin_gdp_log_before_after, echo = FALSE, out.width = "40%"}
+ggplot(data = cacao_gdp, mapping = aes(x = origin_gdp)) + geom_histogram(bins = 9) + labs(x = "Origin GDP in USD", y = "Frequency", title = "Histogram of Bean Origin GDP")
+ggplot(data = cacao_gdp, mapping = aes(x = origin_gdp_log)) + geom_histogram(bins = 6) + labs(x = "Log of Origin GDP in USD", y = "Frequency", title = "Histogram of log of Bean Origin GDP")
+```
+
+#### Company Country Before and After Graphs
+
+```{r company_gdp_log_before_after, echo = FALSE, out.width = "40%"}
+ggplot(data = cacao_gdp, mapping = aes(x = company_gdp)) + geom_histogram(bins = 9) + labs(x = "Company Country GDP in USD", y = "Frequency", title = "Histogram of Company Country GDP")
+ggplot(data = cacao_gdp, mapping = aes(x = company_gdp_log)) + geom_histogram(bins = 6) + labs(x = "Log of Company GDP in USD", y = "Frequency", title = "Histogram of log of Company Country GDP")
+```
+
+
+## Section 2 - Model building
+
+We split the data into training and testing datasets, in order to find the most accurate model in predicting unseen chocolate data. 
+
+### Section 2.1 - Model proposed by Meredith 
+
+#### How does a chocolate bar's cacao percentage, company country, and bean origin GDP impact its rating?
+
+
+##### Bean Origin GDP and Rating
+
+```{r MC_gdp, echo = FALSE, out.width = "40%"}
+#cacao_gdp <- cacao_gdp %>% mutate(origin_gdp_log = log(origin_gdp))
+cacao_gdp %>% select( cacao_percent, origin_gdp_log, rating) %>% ggpairs(title ="Cacao Percentage, and Chocolate Rating vs log of Origin GDP ")
+
+model_mc_gdp <- lm(rating ~ origin_gdp_log, data = cacao_train)
+tidy(model_mc_gdp)
+#cacao_gdp %>% select( cacao_percent, rating, origin_gdp) %>% ggpairs(title ="Cacao Percentage, and Chocolate Rating vs Origin GDP ")
+```
+
+From this, we can see that the log of origin GDP and rating have a relatively high yet still weak positive correlation, so I decided to use it in my model. In addition to this, they also have a p-value of .418 which lead me to believe it may be a decent predictor of rating. I also decided to use this variable because I know that beans of different origins tend to have different flavor palates and qualities and I was curious if this was reflected in the origin country's GDP. 
+
+##### Cacao Percentage and Rating
+
+```{r MC_perc, echo = FALSE, out.width = "40%"}
+boot_slope_perc_mc.df <- cacao_train %>% 
+                        specify( response = rating, 
+                                 explanatory = cacao_percent) %>%
+                         generate(reps = 1000, 
+                                  type = "bootstrap") %>%
+                         calculate(stat = "slope")
+boot_slope_perc_mc.df %>% summarise(lower = quantile(stat, .025), upper = quantile(stat, .975))
+
+model_mc_gdp <- lm(rating ~ cacao_percent, data = cacao_train)
+tidy(model_mc_gdp)
+```
+
+For the cacao percentage, I started out trying to bootstrap it to find the slope. However the 95% confidence interval includes 0, so I decided to create a linear model to test the p value, and found that it is .545. Due to this and my knowledge that different people have different chocolate percentage preferences (I know I tend to prefer darker chocolates, and was curious if the person doing the ratings also had a preference) I decided to use it in my model. 
+
+
+##### Company Country and Rating
+
+Split to see the data better
+
+```{r MC_country, echo = FALSE, out.width = "40%"}
+cacao_train %>% ggplot(mapping = aes(x = rating, y = company_country,  fill = company_country)) + geom_boxplot(show.legend = FALSE) + labs(x = "Chocolate Rating", y = "Company Country", title = "Company Country vs Rating")
+```
+
+I also decided to test the country of the company to attempt to predict the rating, and because we can see from the boxplot that the median may be dependent on the country I decided to put it into my model. I was also curious because some countries, like Switzerland, are known for their chocolate, and I wanted to explore if this was statistically proven by the rating of the chocolate bars. 
+
+
+```{r MC_no_var, include = FALSE}
+##### Year vs Rating
+boot_slope_perc_mc.df <- cacao_train %>% 
+                        specify( response = rating, 
+                                 explanatory = year) %>%
+                         generate(reps = 1000, 
+                                  type = "bootstrap") %>%
+                         calculate(stat = "slope")
+boot_slope_perc_mc.df %>% summarise(lower = quantile(stat, .025), upper = quantile(stat, .975))
+
+ggplot(data = cacao_gdp, mapping = aes(x = year, y = rating)) + geom_point()
+
+model_mc_gdp <- lm(rating ~ year, data = cacao_train)
+tidy(model_mc_gdp)
+# Due to this plot, I decided not to use year as an explanatory variable. When bootstrapping the slope, 0 was in the 95% confidence interval and the scatterplot does not have a visible correlation. In addition to this, the p-value is .984, and all of these things combined caused me to use a different variable. 
+```
+
+
+```{r MC_extra, include = FALSE}
+#boot_slope_gdp.df <- cacao_train %>% 
+#                        specify( response = rating, 
+#                                 explanatory = origin_gdp_log) %>%
+#                         generate(reps = 1000, 
+#                                  type = "bootstrap") %>%
+#                         calculate(stat = "slope")
+#boot_slope_gdp.df %>% summarise(lower = quantile(stat, .1), upper = quantile(stat, .9))
+
+
+
+#null_dist_perc <- cacao_train %>%
+#         filter(!is.na(cacao_percent), !is.na(rating) ) %>% 
+#         specify(response =  rating, explanatory = cacao_percent) %>% 
+#         generate(reps = 1000, type = "bootstrap") %>%
+#         calculate(stat = "slope")
+
+#null_dist_perc %>% visualize() + shade_p_value(obs_stat = 0, direction = "less") + labs(title #= "Bootstrapped Slope Between Cacao Percentage and Rating")
+#null_dist_perc %>% get_p_value(obs_stat = 0, direction = "less")
+
+#null_dist_perc <- cacao_train %>%
+#         filter(!is.na(origin_gdp), !is.na(rating) ) %>% 
+#         specify(response =  rating, explanatory = origin_gdp) %>% 
+#         generate(reps = 1000, type = "bootstrap") %>%
+#         calculate(stat = "slope")
+
+#null_dist_perc %>% visualize() + shade_p_value(obs_stat = 0, direction = "less") + labs(title = "Bootstrapped Slope Between Origin GDP and Rating")
+#null_dist_perc %>% get_p_value(obs_stat = 0, direction = "less")
+
+```
+
+
+##### Models
+
+While none of my variables appear to be fantastic predictors, I still thought it would be interesting to explore the correlation between them and the rating - mainly due to my prior knowledge. 
+
+```{r MC_model, echo = FALSE, out.width = "40%"}
+model_mc <- lm(rating ~ cacao_percent + origin_gdp_log + company_country, data = cacao_train)
+
+tidy(model_mc)
+
+model_mc.rsq <- glance(model_mc) %>% select(adj.r.squared) %>% pull()
+
+model_mc_pred <- augment(model_mc, newdata  = cacao_test ) 
+model_mc.rmse <- model_mc_pred %>% 
+                 rmse(truth = rating, estimate = .fitted) %>% pull()
+
+```
+
+##### List of Model Equations:
+**Without Country: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + 3.72
+**Austria: ** rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.65`
+**Belgium:** rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.211`
+**Brazil: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.236`
+**Canada: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.168`
+**Denmark: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.406`
+**Ecuador: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.339`
+**France: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.221`
+**Germany: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.333`
+**Hungary: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.917`
+**Italy: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.218`
+**Japan: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.165`
+**Madagascar: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.099`
+**New Zealand: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.53`
+**Peru: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.738`
+**Spain: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.086`
+**Switzerland: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.147`
+**United Kingdom: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.393`
+**United States: **rating = -2.82 * cacao_percent - .0045 * origin_gdp_log + `r 3.72 -.250`
+ 
+
+From my testing, I found that my model has an adjusted r squared of `r model_mc.rsq` and an RMSE of `r model_mc.rmse`. We can see that my model - using company country, origin GDP, and cacao percentage - is not a good predictor of the chocolate rating due to its low adjusted r squared value and high RMSE.
+
+
+
+
+### Section 2.2 - Model proposed by Leisha 
+
+I began my model building process by first selecting a few variables of interest, namely origin country, origin gdp, company country, and company gdp. My reasoning behind picking the company country and company country's gdp as variables was that the higher the gdp of the company's country, the higher the chocolate rating would be, as the people of that country could potentially have more money to select and invest in better chocolate. Likewise for origin country and origin country's gdp, I assumed the higher the gdp of the origin country, the better the economy of the origin country, and potentially the more money they could invest in further bettering the economy (through investing in cacao bean crops, for example, to increase chocolate quality and make more profits). However, due to the large number of countries, I used origin and company continent instead.
+
+To test these variables for their suitability, I decided to first graph all of their variables against chocolate rating. 
+
+```{r additional variables graph, echo = FALSE, out.width = "45%"}
+ggplot(data = cacao_gdp,
+   mapping = aes(x = company_continent,
+                 y = rating,
+                 color = company_continent)) +
+        geom_point() +
+        labs(title = "Company Country Continent vs Chocolate Rating",
+               x = "Company Country Continent",
+               y = "Chocolate Rating")
+
+ggplot(data = cacao_gdp,
+   mapping = aes(x = origin_continent,
+                 y = rating,
+                 color = origin_continent)) +
+        geom_point() +
+        labs(title = "Origin Country Continent vs Chocolate Rating",
+               x = "Origin Country Continent",
+               y = "Chocolate Rating")
+```
+
+I made a paired plot between chocolate rating, origin_gdp_log, and company_gdp_log.
+
+``` {r paired graph, echo = FALSE, out.width = "45%"}
+cacao_train %>%
+  select(company_gdp_log, origin_gdp_log, rating) %>%
+  ggpairs(title="Company GDP (log), Origin GDP (log) vs Chocolate Rating")
+```
+
+At this point I discovered that origin_gdp_log was not a suitable variable as it had a negative correlation coefficient, so I did not include that variable in further analysis. It is important to note that none of the variables have suitably large correlation coefficients to make a good model, but I decided to continue with the model building process (mainly due to my background knowledge around this subject).
+
+When using tidy to make the model equations, I realised R was using the category of Africa as the reference level for origin_continent, and the category of Europe as the reference level for company_continent. This could be because these categories come first alphabetically in their respective variables. I changed the reference level to the "Other" category for both the variables as that allowed me to better gauge to what extent the origin or company continents affects chocolate rating, and because the "Other" category has more continent diversity than the other categories as it is a combination of multiple continents than just one, so I felt it would serve as a better reference variable than the other categories. This is why the "Other" category is missing from the equations for both the origin continents and the company continent.
+
+``` {r changing reference levels, echo = FALSE}
+cacao_train$origin_continent <- relevel(cacao_train$origin_continent, ref = "Other")
+cacao_train$company_continent <- relevel(cacao_train$company_continent, ref = "Other")
+```
+``` {r training model, echo = FALSE}
+model_lb <- lm(rating ~ origin_continent + company_continent + company_gdp_log, data = cacao_train)
+model_lb.rsq <- glance(model_lb) %>% select(adj.r.squared) %>% pull()
+```
+
+``` {r testing model, echo = FALSE}
+model_lb_pred <- augment(model_lb, newdata = cacao_test)
+model_lb.rmse <- model_lb_pred %>% rmse(truth = rating, estimate = .fitted) %>% pull()
+```
+
+The R2 value is `r model_lb.rsq`, and the RMSE value is `r model_lb.rmse`. Therefore, this model isn't very effective as it has an extremely low R2; however, its RMSE is moderately low.
+
+``` {r equations, echo = FALSE}
+tidy(model_lb)
+```
+| Origin Continents          |  Equation
+|:------------|:--------------------------------
+| Africa | 2.73 + 0.017*company_gdp_log 
+| Caribbean | 2.655 + 0.017*company_gdp_log
+| South America | 2.627 + 0.017*company_gdp_log
+
+| Company Continents          |  Equation
+|:------------|:--------------------------------
+| Europe | 2.638 + 0.017*company_gdp_log 
+| North America | 2.644 + 0.017*company_gdp_log
+
+
+### Section 2.3 - Model proposed by Aidan
+
+#### Variable Validation
+
+For my model, I wanted to focus on the ways that the origin can impact the chocolate rating. To do this, I want to not only know the main effect of origin GDP, but I also want to see the interactive effects of specific bean regions and percentages. I am curious to know if specific regions lead to more acidic beans and how that impacts the taste of the chocolate produced.
+
+To understand better if these are valid variables to look into, I will conduct some exploratory analysis of the variables and their correlations. 
+
+_1_ - I want to know how the cacao percent influences the chocolate rating. My hypothesis is that this will be the most influential variable since percent should directly impact the taste of the chocolate, which should impact the rating.
+
+```{r origin_gdp, echo = FALSE}
+aidan_train <- cacao_train %>% select (origin_gdp_log, rating, cacao_percent, specific_bean_region, specific_region_bin)
+aidan_test <- cacao_test %>% select(origin_gdp_log, rating, cacao_percent, specific_bean_region, specific_region_bin) 
+cacao_percent_cor <- cor(aidan_train$rating, aidan_train$cacao_percent)
+```
+As it turns out, the correlation is a low `r cacao_percent_cor` which is very surprising. I am still going to include this variable in my model, and I am addressing its limited value, but I think it will be interesting to include nonetheless. 
+
+_2_ - I'll now look at the highest-view variable, I want to know what amount of effect origin_gdp has on the chocolate. This could reflect the level of agriculture and export power of a country, which could in turn influence rating. 
+```{r perc_gdp, echo = FALSE}
+origin_gdp_cor <- cor(aidan_train$rating, aidan_train$origin_gdp_log)
+```
+I found that there is a low correlation between origin_gdp and the chocolate rating of `r origin_gdp_cor`. This means there is almost no relationship between the variables. I'm going to include it in the model since it should be influential in some way, but I understand that statistically is incorrect. I will try and bootstrap the null distribution of this relationship to see if I can find anything of interest. 
+
+```{r gdp_dist, echo = FALSE, out.width = "40%"}
+null_dist_org_gdp <- cacao_train %>%
+         specify(response = rating, explanatory = origin_gdp_log) %>% 
+         generate(reps = 1000, type = "bootstrap") %>%
+         calculate(stat = "slope")
+gdp_p <- null_dist_org_gdp %>% get_p_value(obs_stat = 0, direction = "less")
+null_dist_org_gdp %>% visualize() + shade_p_value(obs_stat = 0, direction = "less") + labs(title = "Bootstrapped Slope Between Origin GDP and Rating")
+```
+This graph and the found p-value of `r gdp_p` confirms that there is statistically no correlation between the two variables. This suggests that the observed slope of 0 in the null hypothesis is not extreme, and the bootstrap samples can easily reproduce this result, reflecting the randomness expected under the null hypothesis. Given that the majority of bootstrapped slopes fall just left of 0, this indicates that a negative relationship is somewhat common in the data, but it is not significant enough to reject the null hypothesis.
+
+_3_ - I am also very interested in looking into the specific_bean_region variable since the specific location of the bean production could have an impact on the flavor/purity. I think that this variable will impact the cacao_percentage, which will in turn impact the rating. Even though I now know there is no correlation between percentage and rating, I'm still interested in investigating this. 
+```{r region_analysis, echo = FALSE, out.width = "40%"}
+aidan_train %>% ggplot(
+  aes(
+    x=cacao_percent, 
+    y = specific_bean_region)
+  ) + geom_boxplot(outlier.shape = NA) +       
+    coord_cartesian(xlim=c(.55, .9))
+
+```
+It seems from the plot above that the more variation in the cacao percentage produced, the larger the region (Brazil for example). Given that there are too many regions to effectively analyze, I am going to group the regions together into small, medium, and large regions. 
+
+The below plots show that when I break up the regions into categories their differences become more pronounced, specifically in cacao percentage and chocolate rating. This variable is clearly having an effect on both the cacao percentage and chocolate rating. 
+```{r region_plots, echo = FALSE, out.width="40%"}
+rating_plot <- aidan_train %>% ggplot(
+  aes(
+    x=rating, 
+    y = specific_region_bin,
+    fill = specific_region_bin)
+  ) + 
+  theme(legend.position = "none", axis.title.y = element_blank()) +
+  geom_boxplot(outlier.shape = NA) +
+  labs(x='Rating', title = 'Chocolate rating by specific region') +
+  coord_cartesian(xlim=c(1.5, 5))
+  
+perc_plot <- aidan_train %>% ggplot(
+  aes(
+    x=cacao_percent, 
+    y = specific_region_bin,
+    fill = specific_region_bin)
+  ) + 
+  theme(legend.position = "none") +
+  geom_boxplot(outlier.shape = NA) +
+  labs(y='Specific region bins', x = 'Cacao Percentage', title = 'Cacao Percentage by region') + 
+  coord_cartesian(xlim=c(.5, .9)) 
+plot_grid(perc_plot, rating_plot, labels = "AUTO")
+
+```
+
+#### Fitting the model
+```{r aidan_model, echo=FALSE}
+aidan_model1 <- lm(rating ~ origin_gdp_log + cacao_percent * specific_region_bin, data = aidan_train) 
+aidan_model1_pred <- augment(aidan_model1, newdata  = aidan_test ) 
+aidan_model1.rmse <- aidan_model1_pred %>% 
+                 rmse(truth = rating, estimate = .fitted) %>% pull()
+aidan_model1.rsq <- glance(aidan_model1) %>% 
+                    select(adj.r.squared) %>% pull()
+
+aidan_model2 <- lm(rating ~ origin_gdp_log + cacao_percent + specific_region_bin, data = aidan_train) 
+aidan_model2_pred <- augment(aidan_model2, newdata  = aidan_test ) 
+aidan_model2.rmse <- aidan_model2_pred %>% 
+                 rmse(truth = rating, estimate = .fitted) %>% pull()
+aidan_model2.rsq <- glance(aidan_model2) %>% 
+                    select(adj.r.squared) %>% pull()
+```
+I fit both an interactive and main effects model to test my hypothesis that the relationship between specific region and cacao percent will have a greater effect on rating. I found that the interactive effects model is slightly better, but it is still a poor model to predict rating with an RMSE of `r aidan_model1.rmse` and an R^2 of `r aidan_model1.rsq`. These values do not show a significant statistical effect of the combined origin_gdp and the relationship between cacao_percent and specific_region_bin as predictors for chocolate rating.
+
+##### List of Model Equations:
+
+| Region Bins          |  Equation
+|:------------|:--------------------------------
+| specific_region_binlarge (default) | rating_hat = 2.37 - 0.003 * origin_gdp_log + 1.05 * cacao_percent 
+| specific_region_binmedium | rating_hat = 2.37 - 0.003 * origin_gdp_log + 1.05 * cacao_percent + 2.045 * specific_region_binmedium − 2.72 * (cacao_percent * specific_region_binmedium)
+| specific_region_binsmall | rating_hat = 2.37 - 0.003 * origin_gdp_log + 1.05 * cacao_percent + 0.955 * specific_region_binsmall − 1.09 * (cacao_percent * specific_region_binsmall)
+
+```{r aidan_model1, echo = FALSE}
+aidan_model1 %>% tidy()
+```
+
+With the predicted rating off by ~`r aidan_model1.rmse` and the model explaining only ~2% of the data variation, the model is not a great predictor for chocolate rating. 
+
+### Group Models
+| Model          |  $R^2_{adj}$  |  RMSE
+|:----------------|:--------------------------------|:----------------------------
+| Meredith’s Model | `r model_mc.rsq` | `r model_mc.rmse`
+| Leisha’s Model | `r model_lb.rsq` | `r model_lb.rmse`
+| Aidan’s Model | `r aidan_model1.rsq` | `r aidan_model1.rmse`
+
+## Section 3 - Results 
+ 
+ 
+ We chose to use Aidan’s model because it had the best adjusted r squared and RMSE of `r aidan_model1.rmse` and `r aidan_model1.rsq` respectively. 
+ 
+```{r new_rmse_and_r_sqared_and_model, echo = FALSE}
+cacao_gdp <- cacao_gdp %>% mutate('specific_region_bin' = 
+        as.factor(ifelse(specific_bean_region %in% large, 'large', 
+               ifelse(specific_bean_region %in% medium, 'medium', 'small'))))
+
+model_ab_final <- lm(rating ~ origin_gdp_log + cacao_percent * specific_region_bin, data = cacao_gdp)
+
+tidy(model_ab_final)
+
+model_ab_final.rsq <- glance(model_ab_final) %>% select(adj.r.squared) %>% pull()
+
+model_ab_pred_final <- augment(model_ab_final, newdata  = cacao_gdp ) 
+model_ab_final.rmse <- model_ab_pred_final %>% rmse(truth = rating, estimate = .fitted) %>% pull()
+
+```
+
+From this, we can see that Aidan's final model has an RMSE score of `r model_ab_final.rmse` and an adjusted R squared of `r model_ab_final.rsq` when all of the data is used. In addition to this, we created a new model with all of the data and were able to see that chocolate has an expected value of 2.2685 when the origin_gdp_log and cacao_percent are both 0. As the origin_gdp_log increases by 1, we would expect to see a decrease of -0.0054 rating points. In addition to this, we would expect the rating to increase by 1.2549 as cacao_percent changes. Our categorical variable of specific_region_bin has many different values all of which change the rating by different amounts. 
+
+The default value for this variable is a size 'large' region. When the region is 'medium' we see a main effect increase of 1.9032. Since this is an interactive effects model with cacao_percent it also creates a decrease of -2.522 for every cacao_percent when the region is 'medium'. When the region is 'small' we see a main effect increase of 0.8315. Since this is an interactive effects model with cacao_percent it also creates a decrease of 0.9173 for every cacao_percent when the region is 'small'. We can see that the model is a fairly poor predictor of rating based on origin_gdp_log, cacao_percent, and specific_region_bin.
+
+This was the best model to predict chocolate rating because the origin gdp can influence the agricultural/export power of a country developing chocolate and the interactive relationship between cacao percent and specific region is explained by how certain regions produce different cacao percentages which might affect the chocolate rating itself. 
+
+
+## Appendix
+
+### Bibliography
+
+Tatman, Rachael, and Brady Brelinski. “Chocolate Bar Ratings.” Kaggle, 11 Aug. 2017, www.kaggle.com/datasets/rtatman/chocolate-bar-ratings/data. 
+
+
+Tunguz, Bojan. “Country, Regional and World GDP.” Kaggle, The World Bank, 29 Mar. 2021, www.kaggle.com/datasets/tunguz/country-regional-and-world-gdp/data. 
+
+</font>
+
